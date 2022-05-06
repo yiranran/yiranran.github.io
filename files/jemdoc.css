@@ -10,7 +10,7 @@ body {
 	background-image: url(homeback.jpg);
 	background-repeat : no-repeat;
 	background-attachment: fixed;
-	font-family: Verdana, serif;
+	font-family: 'litteFont';
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 80px;
@@ -64,12 +64,13 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #1772d0;
 	text-decoration: none;
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+	color: #f09228;
+    text-decoration: none;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {

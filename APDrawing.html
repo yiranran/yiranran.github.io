@@ -1,0 +1,177 @@
+
+<html>
+<head>
+    <title>APDrawing Generation</title>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+      //MathJax.Hub.Config({"HTML-CSS": { scale: 80}});
+    </script>
+    <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</head>
+<body>
+    <div style="margin-left:auto; margin-right:auto; width:800">
+        <center><p style="font-size:23px; font-weight: bold;">APDrawingGAN: Generating Artistic Portrait Drawings from Face Photos with Hierarchical GANs</p></center>
+    <center>
+        <table style="text-align: center">
+            <tr>
+                <td>
+                    &nbsp<a target="_blank" href="https://yiranran.github.io/">Ran Yi</a><sup>1</sup>&nbsp
+                </td>
+                <td>                    
+                    &nbsp<a target="_blank" href="https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm">Yong-Jin Liu</a><sup>1</sup>&nbsp
+                </td>
+                <td>
+                    &nbsp<a target="_blank" href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a><sup>2</sup>&nbsp
+                </td>
+                <td>
+                    &nbsp<a target="_blank" href="https://users.cs.cf.ac.uk/Paul.Rosin/">Paul L. Rosin</a><sup>2</sup>&nbsp
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <sup>1</sup> Tsinghua University
+                </td>
+                <td colspan="2">
+                    <sup>2</sup> Cardiff University
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                <strong>Published in CVPR 2019 (Oral)</strong>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br>
+
+    <div>
+        <a target="_blank" href="images/CVPR-2019-APDrawingGAN.jpg"><img src="images/CVPR-2019-APDrawingGAN.jpg" width="800"></a><br>
+        <p>
+        <font size=-1>Figure: (a) An artist draws a portrait drawing using a sparse set of lines and very few shaded regions to capture the distinctive appearance of a given face photo. (b) Our APDrawingGAN learns this artistic drawing style and automatically transforms a face photo into a high-quality artistic portrait drawing. (c) Using the same input face photo, six state-of-the-art style transfer methods cannot generate desired artistic drawings: Deep Image Analogy, CNNMRF, Gatys and Headshot Portrait change facial features or fail to capture style, CycleGAN and Pix2Pix produce false details around hair, eyes or corners of the mouth.</font>
+        </p>
+    </div>
+
+    <hr>
+    <p>
+    <font size=+1><b>Abstract</b></font><br>
+    <p>
+    Significant progress has been made with image stylization using deep learning, especially with generative adversarial networks (GANs). However, existing methods fail to produce high quality artistic portrait drawings. Such drawings have a highly abstract style, containing a sparse set of continuous graphical elements such as lines, and so small artifacts are more exposed than for painting styles. Moreover, artists tend to use different strategies to draw different facial features and the lines drawn are only loosely related to obvious image features. To address these challenges, we propose APDrawingGAN, a novel GAN based architecture that builds upon hierarchical generators and discriminators combining both a global network (for images as a whole) and local networks (for individual facial regions). This allows dedicated drawing strategies to be learned for different facial features. Since artists’ drawings may not have lines perfectly aligned with image features, we develop a novel loss to measure similarity between generated and artists’ drawings based on distance transforms, leading to improved strokes in portrait drawing. To train APDrawingGAN, we construct an artistic drawing dataset containing high-resolution portrait photos and corresponding professional artistic drawings. Extensive experiments, and a user study, show that APDrawingGAN produces significantly better artistic drawings than state-of-the-art methods.
+    </p>
+
+    <hr>
+    <table>
+        <tr>
+            <td><a target="_blank" href="images/cvpr2019_APDrawingGAN_firstpage.jpg"><img src="images/cvpr2019_APDrawingGAN_firstpage.jpg" width="200"></a></td>
+            <td>
+                <div><font size=+1>Paper</font></div>
+                <div><a target="_blank" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.pdf">APDrawingGAN: Generating Artistic Portrait Drawings from Face Photos with Hierarchical GANs</a><br><br></div>
+
+                <div><font size=+1>Supplmental Material</font></div>
+                <div><a target="_blank" href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Yi_APDrawingGAN_Generating_Artistic_CVPR_2019_supplemental.pdf">Supplemental Material</a><br><br></div>
+
+                <div><font size=+1>Code</font></div>
+                <div><a target="_blank" href="https://github.com/yiranran/APDrawingGAN"/>APDrawingGAN</a>, <a target="_blank" href="https://github.com/yiranran/APDrawingGAN-Jittor"/>APDrawingGAN-Jittor</a></div>
+            </td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <p>
+    <font size=+1><b>Publication</b></font><br>
+        <p>
+            Yi R, Liu Y J, Lai Y K, Rosin P L. <br>
+            APDrawingGAN: Generating Artistic Portrait Drawings from Face Photos with Hierarchical GANs <br>
+            IEEE Conference on Computer Vision and Pattern Recognition (CVPR Oral). 2019: 10743-10752. <br>
+        <a href="https://dblp.uni-trier.de/rec/conf/cvpr/YiLLR19.html?view=bibtex">BibTeX</a>
+        </p>
+    </p>
+    <hr>
+
+
+
+    <div style="margin-left:auto; margin-right:auto; width:800">
+        <center><p style="font-size:23px; font-weight: bold;">Unpaired Portrait Drawing Generation via Asymmetric Cycle Mapping</p></center>
+    <center>
+        <table style="text-align: center">
+            <tr>
+                <td>
+                    &nbsp<a target="_blank" href="https://yiranran.github.io/">Ran Yi</a><sup>1</sup>&nbsp
+                </td>
+                <td>                    
+                    &nbsp<a target="_blank" href="https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm">Yong-Jin Liu</a><sup>1</sup>&nbsp
+                </td>
+                <td>
+                    &nbsp<a target="_blank" href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a><sup>2</sup>&nbsp
+                </td>
+                <td>
+                    &nbsp<a target="_blank" href="https://users.cs.cf.ac.uk/Paul.Rosin/">Paul L. Rosin</a><sup>2</sup>&nbsp
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <sup>1</sup> Tsinghua University
+                </td>
+                <td colspan="2">
+                    <sup>2</sup> Cardiff University
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                <strong>Published in CVPR 2020</strong>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br>
+
+    <div>
+        <a target="_blank" href="images/CVPR-2020-Unpaired.jpg"><img src="images/CVPR-2020-Unpaired.jpg" width="800"></a><br>
+        <p>
+        <font size=-1>Figure: Comparison with state-of-the-art methods: (a) input face photo; (b)-(c) style transfer methods: Gatys and Linear Style Transfer; (f)-(h) single-modal image-to-image translation methods: DualGAN, CycleGAN, UNIT; (d)-(e) multi-modal image-to-image translation methods MUNIT and ComboGAN; (i) a portrait generation method APDrawingGAN; (j) our method.</font>
+        </p>
+    </div>
+
+    <hr>
+    <p>
+    <font size=+1><b>Abstract</b></font><br>
+    <p>
+    Portrait drawing is a common form of art with high abstraction and expressiveness. Due to its unique characteristics, existing methods achieve decent results only with paired training data, which is costly and time-consuming to obtain. In this paper, we address the problem of automatic transfer from face photos to portrait drawings with unpaired training data. We observe that due to the significant imbalance of information richness between photos and drawings, existing unpaired transfer methods such as CycleGAN tend to embed invisible reconstruction information indiscriminately in the whole drawings, leading to important facial features partially missing in drawings. To address this problem, we propose a novel asymmetric cycle mapping that enforces the reconstruction information to be visible (by a truncation loss) and only embedded in selective facial regions (by a relaxed forward cycle-consistency loss). Along with localized discriminators for the eyes, nose and lips, our method well preserves all important facial features in the generated portrait drawings. By introducing a style classifier and taking the style vector into account, our method can learn to generate portrait drawings in multiple styles using a single network. Extensive experiments show that our model outperforms state-of-the-art methods.
+    </p>
+
+    <hr>
+    <table>
+        <tr>
+            <td><a target="_blank" href="images/cvpr2020_UPD_firstpage.jpg"><img src="images/cvpr2020_UPD_firstpage.jpg" width="200"></a></td>
+            <td>
+                <div><font size=+1>Paper</font></div>
+                <div><a target="_blank" href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Yi_Unpaired_Portrait_Drawing_Generation_via_Asymmetric_Cycle_Mapping_CVPR_2020_paper.pdf">Unpaired Portrait Drawing Generation via Asymmetric Cycle Mapping</a><br><br></div>
+
+                <div><font size=+1>Supplmental Material</font></div>
+                <div><a target="_blank" href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Yi_Unpaired_Portrait_Drawing_CVPR_2020_supplemental.pdf">Supplemental Material</a><br><br></div>
+
+                <div><font size=+1>Code</font></div>
+                <div><a target="_blank" href="https://github.com/yiranran/Unpaired-Portrait-Drawing"/>Unpaired-Portrait-Drawing</a>, <a target="_blank" href="https://github.com/yiranran/Unpaired-Portrait-Drawing-Jittor"/>Unpaired-Portrait-Drawing-Jittor</a></div>
+            </td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <p>
+    <font size=+1><b>Publication</b></font><br>
+        <p>
+            Yi R, Liu Y J, Lai Y K, Rosin P L. <br>
+            Unpaired Portrait Drawing Generation via Asymmetric Cycle Mapping <br>
+            IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2020: 8217-8225. <br>
+        <a href="https://dblp.uni-trier.de/rec/conf/cvpr/YiLLR20.html?view=bibtex">BibTeX</a>
+        </p>
+    </p>
+    <hr>
+
+</body>
+</html>

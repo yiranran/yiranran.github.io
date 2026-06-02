@@ -1,0 +1,20 @@
+{
+  "name": "Ran Yi",
+  "nameZh": "易冉",
+  "title": "Associate Professor, Shanghai Jiao Tong University",
+  "affiliation": "School of Computer Science",
+  "summary": "Doctoral Supervisor at Shanghai Jiao Tong University and member of the Digital Media and Computer Vision Laboratory. Her research focuses on computer vision, computer graphics, machine intelligence, and generative AI.",
+  "email": "ranyi@sjtu.edu.cn",
+  "office": "SEIEE 3-533, SJTU",
+  "photo": "./files/ry-2.JPG",
+  "metrics": [
+    { "value": "100+", "label": "Papers" },
+    { "value": "80", "label": "CCF-A papers" },
+    { "value": "2021", "label": "Joined SJTU" }
+  ],
+  "actions": [
+    { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=y68DLo4AAAAJ&hl=en", "primary": true },
+    { "label": "DMCV Lab", "href": "https://dmcv.sjtu.edu.cn/people/" },
+    { "label": "Openings", "href": "#openings" }
+  ]
+}

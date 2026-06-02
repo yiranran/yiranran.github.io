@@ -1,0 +1,6313 @@
+{
+  "summary": "(* corresponding author) Summary: IEEE TPAMI (6) + ACM TOG (3) + IJCV (1) + SIGGRAPH (Asia) Conference (3) + CVPR/ICCV (31) + IEEE TVCG/TIP/TMM (11) + ICML/NeurIPS/ICLR (6) + AAAI/ACM MM (18)",
+  "items": [
+    {
+      "section": "recent",
+      "year": null,
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "image": "images/2026-EgoSim.jpg",
+      "authors": [
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mingda Jia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruiyan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xihui Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Jiangmiao Pang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xudong Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Jinkun Hao, Mingda Jia, Ruiyan Wang, Xihui Liu, Ran Yi*, Lizhuang Ma*, Jiangmiao Pang, Xudong Xu",
+      "venueShort": "2026.04",
+      "venueFull": "2026.04",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://egosimulator.github.io/videos/demovideo.mp4"
+        },
+        {
+          "type": "project",
+          "href": "https://egosimulator.github.io/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2604.01001"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/jinkun-hao/EgoSim"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Harmony: Harmonizing Audio and Video Generation through Cross-Task Synergy",
+      "image": "images/CVPR-2026-Harmony.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhentao Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Guozhen Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zihan Su",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhengguang Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Youliang Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuan Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qinglin Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        }
+      ],
+      "authorsRaw": "Teng Hu, Zhentao Yu, Guozhen Zhang, Zihan Su, Zhengguang Zhou, Youliang Zhang, Yuan Zhou, Qinglin Lu, Ran Yi*",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://www.youtube.com/watch?v=Q1LZ-4nhMAk"
+        },
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/Harmony/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2511.21579"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/Harmony"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "PoseAnything: Universal Pose-guided Video Generation with Part-aware Temporal Coherence",
+      "image": "images/CVPR-2026-PoseAnything.jpg",
+      "authors": [
+        {
+          "name": "Ruiyan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Kaihui Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zihan Su",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ruiyan Wang, Teng Hu, Kaihui Huang, Zihan Su, Ran Yi*, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://ryan-w2024.github.io/project/PoseAnything/pose/demo/demo_video.mp4"
+        },
+        {
+          "type": "project",
+          "href": "https://ryan-w2024.github.io/project/PoseAnything/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2512.13465"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/Ryan-w2024/PoseAnything"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "UltraGen: High-Resolution Video Generation with Hierarchical Attention",
+      "image": "images/AAAI-2026-UltraGen.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zihan Su",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Zihan Su, Ran Yi*",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://www.youtube.com/watch?v=lcN9QyeCIv0"
+        },
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/UltraGen"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2510.18775"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "TileGS: Adaptive Gaussian Densification Through Tile-Guided Perceptual Analysis",
+      "image": "images/AAAI-2026-TileGS.jpg",
+      "authors": [
+        {
+          "name": "Yiwen Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yiwen Wang, Ran Yi*, Lizhuang Ma",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/37997"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Open the Motion Door: Atomic Motion Decomposition and Recomposition for Open-Vocabulary Motion Generation",
+      "image": "images/CVPR-2026-Open the Motion Door.jpg",
+      "authors": [
+        {
+          "name": "Ke Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Jingyu Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yating Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xin Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ke Fan, Jiangning Zhang, Ran Yi*, Jingyu Gong, Yabiao Wang, Yating Wang, Xin Tan, Chengjie Wang, Lizhuang Ma*",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://vankouf.github.io/DSONet/"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection",
+      "image": "images/CVPR-2026-Beyond [CLS] Token.jpg",
+      "authors": [
+        {
+          "name": "Changshuo Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangming Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ke-Yue Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shunli Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Changshuo Wang, Jiangming Wang, Ke-Yue Zhang, Taiping Yao, Shunli Wang, Shouhong Ding, Ran Yi, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": []
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Uncovering and Mitigating Transient Blindness in Multimodal Model Editing",
+      "image": "images/AAAI-2026-De-VQA.jpg",
+      "authors": [
+        {
+          "name": "Xiaoqi Han",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ru Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Hongye Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhuomin Liang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Victor Gutierrez Basulto",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jeff Z. Pan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Xiaoqi Han, Ru Li, Ran Yi, Hongye Tan, Zhuomin Liang, Victor Gutierrez Basulto, Jeff Z. Pan",
+      "venueShort": "AAAI Oral",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": true,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/40352"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sev777/DE-VQA"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+      "image": "images/NeurIPS-2025-MesaTask.jpg",
+      "authors": [
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Naifu Liang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhen Luo",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xudong Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Weipeng Zhong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yichen Jin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhaoyang Lyu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Feng Zheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Jiangmiao Pang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Jinkun Hao, Naifu Liang, Zhen Luo, Xudong Xu, Weipeng Zhong, Ran Yi*, Yichen Jin, Zhaoyang Lyu, Feng Zheng, Lizhuang Ma*, Jiangmiao Pang",
+      "venueShort": "NeurIPS 2025 Spotlight",
+      "venueFull": "Annual Conference on Neural Information Processing Systems",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": true,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://mesatask.github.io/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openreview.net/forum?id=U88JlpY0vR"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/InternRobotics/MesaTask"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "PolyVivid: Vivid Multi-Subject Video Generation with Cross-Modal Interaction and Enhancement",
+      "image": "images/NeurIPS-2025-PolyVivid.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhentao Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhengguang Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuan Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qinglin Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        }
+      ],
+      "authorsRaw": "Teng Hu, Zhentao Yu, Zhengguang Zhou, Jiangning Zhang, Yuan Zhou, Qinglin Lu, Ran Yi*",
+      "venueShort": "NeurIPS 2025",
+      "venueFull": "Annual Conference on Neural Information Processing Systems",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/PolyVivid/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openreview.net/forum?id=plrg87MP0F"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "3D Gaussian Head Avatars with Expressive Dynamic Appearances by Compact Tensorial Representations",
+      "image": "images/CVPR-2025-TensorialGaussianAvatars.jpg",
+      "authors": [
+        {
+          "name": "Yating Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xuan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yanbo Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jichen Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jingcheng Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yating Wang, Xuan Wang, Ran Yi*, Yanbo Fan, Jichen Hu, Jingcheng Zhu, Lizhuang Ma*",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://wang-yating.github.io/TensorialGaussianAvatars/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_3D_Gaussian_Head_Avatars_with_Expressive_Dynamic_Appearances_by_Compact_CVPR_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/ant-research/TensorialGaussianAvatar"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/V18oH7pPZxgE6YD6RDa7YQ"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "MV-Adapter: Multi-View Consistent Image Generation Made Easy",
+      "image": "images/ICCV-2025-MV-Adapter.jpg",
+      "authors": [
+        {
+          "name": "Zehuan Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuan-Chen Guo",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Haoran Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yan-Pei Cao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lu Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zehuan Huang, Yuan-Chen Guo, Haoran Wang, Ran Yi, Lizhuang Ma, Yan-Pei Cao, Lu Sheng",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE/CVF International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://huanngzh.github.io/MV-Adapter-Page/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2025/html/Huang_MV-Adapter_Multi-View_Consistent_Image_Generation_Made_Easy_ICCV_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/huanngzh/MV-Adapter"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction",
+      "image": "images/CVPR-2025-IAR.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Jieyu Weng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xianfang Zeng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhucun Xue",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Ran Yi*, Jieyu Weng, Yabiao Wang, Xianfang Zeng, Zhucun Xue, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/IAR/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2025/html/Hu_Improving_Autoregressive_Visual_Generation_with_Cluster-Oriented_Token_Prediction_CVPR_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/IAR"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/VP85WGtFHq2Sfj2gbevQAw"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "M3DM-NR: RGB-3D Noisy-Resistant Industrial Anomaly Detection via Multimodal Denoising",
+      "image": "images/TPAMI-M3DM-NR.jpg",
+      "authors": [
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Haokun Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinlong Peng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yue Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yunsheng Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Chengjie Wang, Haokun Zhu, Jinlong Peng, Yue Wang, Ran Yi*, Yunsheng Wu, Lizhuang Ma*, Jiangning Zhang",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/11091585"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Inpainting",
+      "image": "images/CVPR-2025-ATA.jpg",
+      "authors": [
+        {
+          "name": "Yizhe Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhimin Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuzhen Du",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Guangben Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Luying Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Fangyuan Zou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yizhe Tang, Zhimin Sun, Yuzhen Du, Ran Yi*, Guangben Lu, Teng Hu, Luying Li, Lizhuang Ma, Fangyuan Zou",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_ATA_Adaptive_Transformation_Agent_for_Text-Guided_Subject-Position_Variable_Background_Inpainting_CVPR_2025_paper.html"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/TvAOyIY8OkE8ScJMJM_uwg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "WaveAR: Wavelet-Aware Continuous Autoregressive Diffusion for Accurate Human Motion Prediction",
+      "image": "images/NeurIPS-2025-WaveAR.jpg",
+      "authors": [
+        {
+          "name": "Shengchuan Gao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shuo Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        }
+      ],
+      "authorsRaw": "Shengchuan Gao, Shuo Wang, Yabiao Wang, Ran Yi*",
+      "venueShort": "NeurIPS 2025",
+      "venueFull": "Annual Conference on Neural Information Processing Systems",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openreview.net/forum?id=kW2u5szHb6"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "SaRA: High-Efficient Diffusion Model Fine-tuning with Progressive Sparse Low-Rank Adaptation",
+      "image": "images/ICLR-2025-Sara.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Hongrui Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Ran Yi*, Hongrui Huang, Yabiao Wang, Lizhuang Ma",
+      "venueShort": "ICLR",
+      "venueFull": "International Conference on Learning Representations",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/SaRA/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://export.arxiv.org/abs/2409.06633"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/SaRA"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/vaqwSbl1njuyroCGzcZzJg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "AttentionPainter: An Efficient and Adaptive Stroke Predictor for Scene Painting",
+      "image": "images/TVCG-AttentionPainter.jpg",
+      "authors": [
+        {
+          "name": "Yizhe Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yue Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Xin Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yizhe Tang, Yue Wang, Teng Hu, Ran Yi*, Xin Tan, Lizhuang Ma, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/abstract/document/11193849"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "Pinco: Position-induced Consistent Adapter for Diffusion Transformer in Foreground-conditioned Inpainting",
+      "image": "images/ICCV-2025-Pinco.jpg",
+      "authors": [
+        {
+          "name": "Guangben Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuzhen Du",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yizhe Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhimin Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yifan Qi",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Tianyi Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Fangyuan Zou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Guangben Lu, Yuzhen Du, Yizhe Tang, Zhimin Sun, Ran Yi*, Yifan Qi, Tianyi Wang, Lizhuang Ma, Fangyuan Zou",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE/CVF International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2025/html/Lu_Pinco_Position-induced_Consistent_Adapter_for_Diffusion_Transformer_in_Foreground-conditioned_Inpainting_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "SuperMat: Physically Consistent PBR Material Estimation at Interactive Rates",
+      "image": "images/ICCV-2025-SuperMat.jpg",
+      "authors": [
+        {
+          "name": "Yijia Hong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuan-Chen Guo",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yulong Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yan-Pei Cao*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yijia Hong, Yuan-Chen Guo, Ran Yi*, Yulong Chen, Yan-Pei Cao*, Lizhuang Ma*",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE/CVF International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://hyj542682306.github.io/SuperMat/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2025/html/Hong_SuperMat_Physically_Consistent_PBR_Material_Estimation_at_Interactive_Rates_ICCV_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/hyj542682306/SuperMat"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "SIGMAN: Scaling 3D Human Gaussian Generation with Millions of Assets",
+      "image": "images/ICCV-2025-SIGMAN.jpg",
+      "authors": [
+        {
+          "name": "Yuhang Yang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Fengqi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yixing Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qin Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Pingyu Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wei Zhai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yang Cao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zheng-Jun Zha",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Junting Dong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yuhang Yang, Fengqi Liu, Yixing Lu, Qin Zhao, Pingyu Wu, Wei Zhai, Ran Yi, Yang Cao, Lizhuang Ma, Zheng-Jun Zha, Junting Dong",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE/CVF International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://yyvhang.github.io/SIGMAN_3D/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2025/html/Yang_SIGMAN_Scaling_3D_Human_Gaussian_Generation_with_Millions_of_Assets_ICCV_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yyvhang/SIGMAN_release"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "ID-Sculpt: ID-aware 3D Head Generation from Single In-the-wild Portrait Image",
+      "image": "images/AAAI-2025-ID-Sculpt.jpg",
+      "authors": [
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Junshu Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yijia Hong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Moran Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Weijian Cao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yating Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Jinkun Hao, Junshu Tang, Jiangning Zhang, Ran Yi*, Yijia Hong, Moran Li, Weijian Cao, Yating Wang, Chengjie Wang, Lizhuang Ma*",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://jinkun-hao.github.io/IDSculpt/"
+        },
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/32350"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/jinkun-hao/ID-Sculpt"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "Rectified Diffusion Guidance for Conditional Generation",
+      "image": "images/CVPR-2025-ReCFG.jpg",
+      "authors": [
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Nan Xue",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yujun Shen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Tieliang Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Mengfei Xia, Nan Xue, Yujun Shen, Ran Yi, Tieliang Gong, Yong-Jin Liu",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2025/html/Xia_Rectified_Diffusion_Guidance_for_Conditional_Generation_CVPR_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/thuxmf/recfg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "MOS: Modeling Object-Scene Associations in Generalized Category Discovery",
+      "image": "images/CVPR-2025-MOS.jpg",
+      "authors": [
+        {
+          "name": "Zhengyuan Peng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinpeng Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhimin Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Haichuan Song",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xin Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhengyuan Peng, Jinpeng Ma, Zhimin Sun, Ran Yi, Haichuan Song, Xin Tan, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_MOS_Modeling_Object-Scene_Associations_in_Generalized_Category_Discovery_CVPR_2025_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/JethroPeng/MOS"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/XOkiUqpaO4VGEutCUYCqEA"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "Crucial-Diff: A Unified Diffusion Model for Crucial Image and Annotation Synthesis in Data-scarce Scenarios",
+      "image": "images/TIP-Crucial-Diff.jpg",
+      "authors": [
+        {
+          "name": "Siyue Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mingjie Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Eng Gee Lim",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Baojiang Zhong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Moncef Gabbouj",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Siyue Yao, Mingjie Sun, Eng Gee Lim, Ran Yi, Baojiang Zhong, Moncef Gabbouj",
+      "venueShort": "TIP",
+      "venueFull": "IEEE Transactions on Image Processing",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10487003"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "CloudMix: Dual Mixup Consistency for Unpaired Point Cloud Completion",
+      "image": "images/TVCG-CloudMix.jpg",
+      "authors": [
+        {
+          "name": "Fengqi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jingyu Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xuequan Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yuan Xie",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Fengqi Liu, Jingyu Gong, Qianyu Zhou, Xuequan Lu, Ran Yi, Yuan Xie, Lizhuang Ma",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10487003"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "PCKRF: Point Cloud Completion and Keypoint Refinement with Fusion Data for 6D Pose Estimation",
+      "image": "images/TVCG-PCKRF.jpg",
+      "authors": [
+        {
+          "name": "Yiheng Han",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Irvin Haozhe Zhan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Long Zeng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Ping Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Minjing Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Matthieu Gaetan Lin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jenny Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yiheng Han, Irvin Haozhe Zhan, Long Zeng, Yu-Ping Wang, Ran Yi, Minjing Yu, Matthieu Gaetan Lin, Jenny Sheng, Yong-Jin Liu",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10504632/"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2025,
+      "title": "Weighted Poisson-disk Resampling on Large-Scale Point Clouds",
+      "image": "images/AAAI-2025-Weighted-Poisson-disk-Resampling.jpg",
+      "authors": [
+        {
+          "name": "Xianhe Jiao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chenlei Lv",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Junli Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yu-Hui Wen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhenkuan Pan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhongke Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Xianhe Jiao, Chenlei Lv, Junli Zhao, Ran Yi, Yu-Hui Wen, Zhenkuan Pan, Zhongke Wu, Yong-jin Liu",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/32428"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/vvvwo/Weighted-Poisson-disk-Resampling"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model",
+      "image": "images/AAAI-2024-AnomalyDiffusion.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yuzhen Du",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xu Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Ran Yi*, Yuzhen Du, Xu Chen, Liang Liu, Yabiao Wang, Chengjie Wang",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/28696"
+        },
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/anomalydiffusion-page/"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/anomalydiffusion"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/ZUUvhjeTT7ccqL9DAHBtQg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "COMD: Training-free Camera Motion Transfer For Video Generation",
+      "image": "images/ACM-MM-2024-MotionMaster.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Yating Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Hongrui Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jieyu Weng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Ran Yi*, Yating Wang, Hongrui Huang, Jieyu Weng, Yabiao Wang, Lizhuang Ma",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [
+        "MotionMaster: Training-free Camera Motion Transfer for Video Generation"
+      ],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://youtu.be/o3Fk4RgWC4A"
+        },
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/MotionMaster/"
+        },
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3664647.3680600"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "AdR-Gaussian: Accelerating Gaussian Splatting with Adaptive Radius",
+      "image": "images/SIGASIA-2024-AdR-Gaussian.jpg",
+      "authors": [
+        {
+          "name": "Xinzhe Wang#",
+          "isMe": false,
+          "corresponding": false,
+          "equal": true
+        },
+        {
+          "name": "Ran Yi#",
+          "isMe": true,
+          "corresponding": false,
+          "equal": true,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Xinzhe Wang#, Ran Yi#, Lizhuang Ma",
+      "venueShort": "SIGGRAPH Asia",
+      "venueFull": "ACM SIGGRAPH Asia 2024 Conference Proceedings",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3680528.3687675"
+        },
+        {
+          "type": "project",
+          "href": "https://hiroxzwang.github.io/publications/adrgaussian//"
+        },
+        {
+          "type": "code",
+          "href": "https://https://github.com/hiroxzwang/adrgaussian"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/MAdwPsySebDz__03GTvclw"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Freemotion: A unified framework for number-free text-to-motion synthesis",
+      "image": "images/ECCV-2024-Freemotion.jpg",
+      "authors": [
+        {
+          "name": "Ke Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Junshu Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Weijian Cao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Moran Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jingyu Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ke Fan, Junshu Tang, Weijian Cao, Ran Yi*, Moran Li, Jingyu Gong, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Lizhuang Ma*",
+      "venueShort": "ECCV",
+      "venueFull": "European Conference on Computer Vision",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://vankouf.github.io/FreeMotion/static/video/demo_teaser.mp4"
+        },
+        {
+          "type": "project",
+          "href": "https://vankouf.github.io/FreeMotion/"
+        },
+        {
+          "type": "paper",
+          "href": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01249.pdf"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "A Diffusion Model Translator for Efficient Image-to-Image Translation",
+      "image": "images/TPAMI-DMT.jpg",
+      "authors": [
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Wenping Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Mengfei Xia, Yu Zhou, Ran Yi*, Yong-Jin Liu*, Wenping Wang",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10614866"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/THU-LYJ-Lab/dmt"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "FEditNet++: Few-Shot Editing of Latent Semantics in GAN Spaces with Correlated Attribute Disentanglement",
+      "image": "images/TPAMI-FEditNet++.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yizhe Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Teng Hu, Mengfei Xia, Yizhe Tang, Yong-Jin Liu",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10607942"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/FEditNet2"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Rethinking Open-World DeepFake Attribution with Multi-Perspective Sensory Learning",
+      "image": "images/IJCV-2024-OW-DFA++.jpg",
+      "authors": [
+        {
+          "name": "Zhimin Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shen Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhimin Sun, Shen Chen, Taiping Yao, Ran Yi*, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "IJCV",
+      "venueFull": "International Journal of Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://link.springer.com/article/10.1007/s11263-024-02184-7"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "PVP-Recon: Progressive View Planning via Warping Consistency for Sparse-View Surface Reconstruction",
+      "image": "images/TOG-2024-PVP-Recon.jpg",
+      "authors": [
+        {
+          "name": "Sheng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuze He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Matthieu Lin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jenny Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruoyu Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yiheng Han",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yubin Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yu-Hui Wen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wenping Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Sheng Ye, Yuze He, Matthieu Lin, Jenny Sheng, Ruoyu Fan, Yiheng Han, Yubin Hu, Ran Yi, Yu-Hui Wen, Yong-Jin Liu, Wenping Wang",
+      "venueShort": "TOG, SIGGRAPH Asia 2024",
+      "venueFull": "ACM Transactions on Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3687896"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "AesStyler: Aesthetic Guided Universal Style Transfer",
+      "image": "images/ACM-MM-2024-AesStyler.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Haokun Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi*, Haokun Zhu, Teng Hu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3664647.3680784"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "SuperSVG: Superpixel-based Scalable Vector Graphics Synthesis",
+      "image": "images/CVPR-2024-SuperSVG.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Baihong Qian",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Ran Yi*, Baihong Qian, Jiangning Zhang, Paul L. Rosin, Yu-Kun Lai",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2024/html/Hu_SuperSVG_Superpixel-based_Scalable_Vector_Graphics_Synthesis_CVPR_2024_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/SuperSVG"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/JHeGbarRL243RE68bQHe_w"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "LD-BFR: Vector-Quantization-Based Face Restoration Model with Latent Diffusion Enhancement",
+      "image": "images/ACM-MM-2024-LD-BFR.jpg",
+      "authors": [
+        {
+          "name": "Yuzhen Du",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yuzhen Du, Teng Hu, Ran Yi*, Lizhuang Ma",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3664647.3680853"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Curved-stroke-based neural painting and stylization through thin plate spline interpolation",
+      "image": "images/SCIENTIA-SINICA-2024-Curved-stroke.jpg",
+      "authors": [
+        {
+          "name": "Bohao Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuzhen Du",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Bohao Tang, Teng Hu, Yuzhen Du, Ran Yi*, Lizhuang Ma",
+      "venueShort": "中国科学:信息科学",
+      "venueFull": "SCIENTIA SINICA Informationis",
+      "tags": [
+        "CCF A中文"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0194"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/gqjrtDzr6Q4qibhRtB0yAQ"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Complete 3D Relationships Extraction Modality Alignment Network for 3D Dense Captioning",
+      "image": "images/TVCG-3D-Caption.jpg",
+      "authors": [
+        {
+          "name": "Aihua Mao*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Zhi Yang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wanxin Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Aihua Mao*, Zhi Yang, Wanxin Chen, Ran Yi*, Yong-Jin Liu",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10132066"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Continuous Piecewise-Affine Based Motion Model for Image Animation",
+      "image": "images/AAAI-2024-CPABMM.jpg",
+      "authors": [
+        {
+          "name": "Hexiang Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Fengqi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Xin Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Hexiang Wang, Fengqi Liu, Qianyu Zhou, Ran Yi*, Xin Tan, Lizhuang Ma*",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/28351"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/DevilPG/AAAI2024-CPABMM"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/_wgu9NXP2amJu-8tqMAuFQ"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Emphasizing Semantic Consistency of Salient Posture for Speech-Driven Gesture Generation",
+      "image": "images/ACM-MM-2024-Speech-Driven-Gesture.jpg",
+      "authors": [
+        {
+          "name": "Fengqi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Hexiang Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jingyu Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xuequan Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangbo Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Fengqi Liu, Hexiang Wang, Jingyu Gong, Ran Yi, Qianyu Zhou, Xuequan Lu, Jiangbo Lu, Lizhuang Ma",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3664647.3680892"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "ECAvatar: 3D Avatar Facial Animation with Controllable Identity and Emotion",
+      "image": "images/ACM-MM-2024-ECAvatar.jpg",
+      "authors": [
+        {
+          "name": "Minjing Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Delong Pang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ziwen Kang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhiyao Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Tian Lv",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jenny Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yu-Hui Wen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Minjing Yu, Delong Pang, Ziwen Kang, Zhiyao Sun, Tian Lv, Jenny Sheng, Ran Yi, Yu-Hui Wen, Yong-Jin Liu",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3664647.3680892"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "SMaRt: Improving GANs with Score Matching Regularity",
+      "image": "images/ICML-2024-SMaRt.jpg",
+      "authors": [
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yujun Shen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ceyuan Yang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Wenping Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Mengfei Xia, Yujun Shen, Ceyuan Yang, Ran Yi, Wenping Wang, Yong-Jin Liu",
+      "venueShort": "ICML",
+      "venueFull": "International Conference on Machine Learning",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://proceedings.mlr.press/v235/xia24d.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/THU-LYJ-Lab/SMaRt"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner",
+      "image": "images/CVPR-2024-DPM-Aligner.jpg",
+      "authors": [
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yujun Shen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Changsong Lei",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Deli Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Wenping Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Mengfei Xia, Yujun Shen, Changsong Lei, Yu Zhou, Deli Zhao, Ran Yi, Wenping Wang, Yong-jin Liu",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2024/html/Xia_Towards_More_Accurate_Diffusion_Model_Acceleration_with_A_Timestep_Tuner_CVPR_2024_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/THU-LYJ-Lab/time-tuner"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation",
+      "image": "images/CVPR-2024-SDPose.jpg",
+      "authors": [
+        {
+          "name": "Sichen Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yingyi Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Siming Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Ke Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruixin Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Peixian Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jun Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Sichen Chen, Yingyi Zhang, Siming Huang, Ran Yi, Ke Fan, Ruixin Zhang, Peixian Chen, Jun Wang, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_SDPose_Tokenized_Pose_Estimation_via_Circulation-Guide_Self-Distillation_CVPR_2024_paper.html"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "Re-thinking Data Availablity Attacks Against Deep Neural Networks",
+      "image": "images/CVPR-2024-Rethinking-Data-Availability-Attacks.jpg",
+      "authors": [
+        {
+          "name": "Bin Fang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Bo Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shuang Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Bin Fang, Bo Li, Shuang Wu, Shouhong Ding, Ran Yi, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2024/html/Fang_Re-thinking_Data_Availability_Attacks_Against_Deep_Neural_Networks_CVPR_2024_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/EuterpeK/Rethinking-Data-Availability-Attacks"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "MSL-Net: Sharp Feature Detection Network for 3D Point Clouds",
+      "image": "images/TVCG-Sharp-Feature.jpg",
+      "authors": [
+        {
+          "name": "Xianhe Jiao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chenlei Lv",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Junli Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhenkuan Pan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhongke Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Xianhe Jiao, Chenlei Lv, Ran Yi, Junli Zhao, Zhenkuan Pan, Zhongke Wu, Yong-Jin Liu",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10373950/"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2024,
+      "title": "SAMVG: A Multi-Stage Image Vectorization Model with the Segment-Anything Model",
+      "image": "images/ICASSP-2024-SAMVG.jpg",
+      "authors": [
+        {
+          "name": "Haokun Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Juang Ian Chong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Haokun Zhu, Juang Ian Chong, Teng Hu, Ran Yi*, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "ICASSP",
+      "venueFull": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/10447396"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior",
+      "image": "images/ICCV-2023-Make-It-3D.jpg",
+      "authors": [
+        {
+          "name": "Junshu Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Tengfei Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Bo Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ting Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Dong Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Junshu Tang, Tengfei Wang, Bo Zhang, Ting Zhang, Ran Yi, Lizhuang Ma, Dong Chen",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2023/html/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.html"
+        },
+        {
+          "type": "project",
+          "href": "https://make-it-3d.github.io/"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/junshutang/Make-It-3D"
+        },
+        {
+          "type": "codeJittor",
+          "href": "https://github.com/DMCV-SJTU/Make-it-3D-Jittor"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/qd3ivZEtmbbBVAoCy0mOiQ"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Multimodal Industrial Anomaly Detection via Hybrid Fusion",
+      "image": "images/CVPR-2023-M3DM.jpg",
+      "authors": [
+        {
+          "name": "Yue Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinlong Peng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yue Wang, Jinlong Peng, Jiangning Zhang, Ran Yi*, Yabiao Wang, Chengjie Wang",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Multimodal_Industrial_Anomaly_Detection_via_Hybrid_Fusion_CVPR_2023_paper.pdf"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/nomewang/M3DM"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/Z1fhyx30PobXMDWHQqYUyg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Quality Metric Guided Portrait Line Drawing Generation from Unpaired Training Data",
+      "image": "images/TPAMI-QMUPD.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Yong-Jin Liu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9699090"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/QMUPD"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Towards Artistic Image Aesthetics Assessment: a Large-scale Dataset and a New Method",
+      "image": "images/CVPR-2023-BAID-Aesthetic.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Haoyuan Tian",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhihao Gu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi*, Haoyuan Tian, Zhihao Gu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yi_Towards_Artistic_Image_Aesthetics_Assessment_A_Large-Scale_Dataset_and_a_CVPR_2023_paper.pdf"
+        },
+        {
+          "type": "datasetCode",
+          "href": "https://github.com/Dreemurr-T/BAID"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Audio-Driven Talking Face Video Generation with Dynamic Convolution Kernels",
+      "image": "images/TMM-Dynamic-Convolution.jpg",
+      "authors": [
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Juyong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xuwei Huang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Guoxin Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zipeng Ye, Mengfei Xia, Ran Yi*, Juyong Zhang, Yu-Kun Lai, Xuwei Huang, Guoxin Zhang, Yong-Jin Liu*",
+      "venueShort": "TMM",
+      "venueFull": "IEEE Transactions on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9681173"
+        },
+        {
+          "type": "demo",
+          "href": "https://ieeexplore.ieee.org/ielx7/6046/4456689/9681173/supp1-3142387.mp4?arnumber=9681173"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Predicting Personalized Head Movement From Short Video and Speech Signal",
+      "image": "images/TMM-Personalized-Head-Movement.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhiyao Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Juyong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Guoxin Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Pengfei Wan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Hujun Bao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Zipeng Ye, Zhiyao Sun, Juyong Zhang, Guoxin Zhang, Pengfei Wan, Hujun Bao, Yong-Jin Liu",
+      "venueShort": "TMM",
+      "venueFull": "IEEE Transactions on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9894719"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/Predict-Personalized-Head-Movement-TMM"
+        },
+        {
+          "type": "demo",
+          "href": "https://ieeexplore.ieee.org/document/9894719/media#media"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Phasic Content Fusing Diffusion Model with Directional Distribution Consistency for Few-Shot Model Adaption",
+      "image": "images/ICCV-2023-Few-shot-Diffusion.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Siqi Kou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Haokun Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xu Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Jiangning Zhang, Liang Liu, Ran Yi*, Siqi Kou, Haokun Zhu, Xu Chen, Yabiao Wang, Chengjie Wang, Lizhuang Ma",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2023/html/Hu_Phasic_Content_Fusing_Diffusion_Model_with_Directional_Distribution_Consistency_for_ICCV_2023_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/few-shot-diffusion"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Stroke-based Neural Painting and Stylization with Dynamically Predicted Painting Region",
+      "image": "images/ACM-MM-2023-Neural-Painting.jpg",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Haokun Zhu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinlong Peng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Ran Yi*, Haokun Zhu, Liang Liu, Jinlong Peng, Yabiao Wang, Chengjie Wang, and Lizhuang Ma",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3581783.3611766"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/Compositional_Neural_Painter"
+        },
+        {
+          "type": "blog",
+          "href": "https://r.xiumi.us/board/v5/6uhCo/490666889"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Contrastive Pseudo Learning for Open-World DeepFake Attribution",
+      "image": "images/ICCV-2023-Open-World-DeepFake.jpg",
+      "authors": [
+        {
+          "name": "Zhimin Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shen Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Bangjie Yin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Shouhong Ding*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhimin Sun, Shen Chen, Taiping Yao, Bangjie Yin, Ran Yi*, Shouhong Ding*, Lizhuang Ma",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2023/html/Sun_Contrastive_Pseudo_Learning_for_Open-World_DeepFake_Attribution_ICCV_2023_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/TencentYoutuResearch/OpenWorld-DeepFakeAttribution"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Instance-Aware Domain Generalization for Face Anti-Spoofing",
+      "image": "images/CVPR-2023-IADG.jpg",
+      "authors": [
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ke-Yue Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xuequan Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Xuequan Lu, Ran Yi, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Instance-Aware_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2023_paper.pdf"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/qianyuzqy/IADG"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "LiDAR-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment",
+      "image": "images/ICCV-2023-LiDAR-Camera.jpg",
+      "authors": [
+        {
+          "name": "Zhiwei Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Qian Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhizhong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yuan Xie",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhiwei Zhang, Qian Yu, Zhizhong Zhang, Ran Yi, Yuan Xie, Lizhuang Ma",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_LiDAR-Camera_Panoptic_Segmentation_via_Geometry-Consistent_and_Semantic-Aware_Alignment_ICCV_2023_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/zhangzw12319/lcps"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Remembering Normality: Memory-guided Knowledge Distillation for Unsupervised Anomaly Detection",
+      "image": "images/ICCV-2023-MemKD-Anomaly-Detection.jpg",
+      "authors": [
+        {
+          "name": "Zhihao Gu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xu Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Annan Shu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Guannan Jiang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhihao Gu, Liang Liu, Xu Chen, Ran Yi, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Annan Shu, Guannan Jiang, Lizhuang Ma",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/ICCV2023/html/Gu_Remembering_Normality_Memory-guided_Knowledge_Distillation_for_Unsupervised_Anomaly_Detection_ICCV_2023_paper.html"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "3D-CariGAN: An End-to-End Solution to 3D Caricature Generation from Normal Face Photos",
+      "image": "images/TVCG-3D-Caricature.jpg",
+      "authors": [
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yanan Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Minjing Yu*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Juyong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zipeng Ye, Mengfei Xia, Yanan Sun, Ran Yi*, Minjing Yu*, Juyong Zhang, Yu-Kun Lai, Yong-Jin Liu*",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9609545"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/qq775193759/3D-CariGAN"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "Toward High Quality Facial Representation Learning",
+      "image": "images/ACM-MM-2023-Facial-Representation.jpg",
+      "authors": [
+        {
+          "name": "Yue Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinlong Peng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yue Wang, Jinlong Peng, Jiangning Zhang, Ran Yi*, Liang Liu, Yabiao Wang, Chengjie Wang",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3581783.3611999"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/nomewang/MCF"
+        },
+        {
+          "type": "blog",
+          "href": "https://c.xiumi.us/board/v5/6ioFY/490808642"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "RT-Octree: Accelerate PlenOctree Rendering with Batched Regular Tracking and Neural Denoising for Real-time Neural Radiance Fields",
+      "image": "images/SIGASIA-2023-RT-Octree.jpg",
+      "authors": [
+        {
+          "name": "Zixi Shu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yuqi Meng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yutong Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zixi Shu, Ran Yi, Yuqi Meng, Yutong Wu, Lizhuang Ma",
+      "venueShort": "SIGGRAPH Asia",
+      "venueFull": "ACM SIGGRAPH Asia 2023 Conference Proceedings",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3610548.3618214"
+        },
+        {
+          "type": "project",
+          "href": "https://rt-octree.github.io/"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/LumiOwO/RT-Octree"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/XtVKqmxv0j3aMRmo0wZF2Q"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "RFENet: Towards Reciprocal Feature Evolution for Glass Segmentation",
+      "image": "images/IJCAI-2023-RFENet.jpg",
+      "authors": [
+        {
+          "name": "Ke Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Changan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ke Fan, Changan Wang, Yabiao Wang, Chengjie Wang, Ran Yi*, Lizhuang Ma*",
+      "venueShort": "IJCAI",
+      "venueFull": "International Joint Conference on Artificial Intelligence",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [
+        "CCF B"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.ijcai.org/proceedings/2023/80"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/VankouF/RFENet"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2023,
+      "title": "T3Bench: Benchmarking Current Progress in Text-to-3D Generation",
+      "image": "images/Arxiv-2023-T3Bench.jpg",
+      "authors": [
+        {
+          "name": "Yuze He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yushi Bai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Matthieu Lin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wang Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yubin Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jenny Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Juanzi Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yuze He, Yushi Bai, Matthieu Lin, Wang Zhao, Yubin Hu, Jenny Sheng, Ran Yi, Juanzi Li, Yong-Jin Liu",
+      "venueShort": "Arxiv",
+      "venueFull": "Arxiv",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2310.02977"
+        },
+        {
+          "type": "project",
+          "href": "https://t3bench.com/"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/THU-LYJ-Lab/T3Bench"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Animating Portrait Line Drawings from a Single Face Photo and a Speech Signal",
+      "image": "images/SIG-2022-AnimatePortrait.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruoyu Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yezhi Shu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Zipeng Ye, Ruoyu Fan, Yezhi Shu, Yong-Jin Liu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "SIGGRAPH",
+      "venueFull": "ACM SIGGRAPH 2022 Conference Proceedings",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/3528233.3530720"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/AnimatePortrait/AnimatePortrait"
+        },
+        {
+          "type": "demo",
+          "href": "./images/SIG-2022_demo.mp4"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "LAKe-Net: Topology-Aware Point Cloud Completion by Localizing Aligned Keypoints",
+      "image": "images/CVPR-2022-LAKeNet.jpg",
+      "authors": [
+        {
+          "name": "Junshu Tang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhijun Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yuan Xie",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Junshu Tang, Zhijun Gong, Ran Yi*, Yuan Xie, Lizhuang Ma*",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2022/html/Tang_LAKe-Net_Topology-Aware_Point_Cloud_Completion_by_Localizing_Aligned_Keypoints_CVPR_2022_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/junshutang/LAKe-Net"
+        },
+        {
+          "type": "blog",
+          "href": "https://mp.weixin.qq.com/s/AavgmV0lYp9RlIT4jFl3Pg"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Exploiting Fine-grained Face Forgery Clues via Progressive Enhancement Learning",
+      "image": "images/AAAI-2022-face-forgery.jpg",
+      "authors": [
+        {
+          "name": "Qiqi Gu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shen Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yang Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        }
+      ],
+      "authorsRaw": "Qiqi Gu, Shen Chen, Taiping Yao, Yang Chen, Shouhong Ding*, Ran Yi*",
+      "venueShort": "AAAI",
+      "venueFull": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/19954"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation",
+      "image": "images/CVPR-2022-ISDNet.jpg",
+      "authors": [
+        {
+          "name": "Shaohua Guo",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Liang Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhenye Gan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yabiao Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wuhao Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chengjie Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Guannan Jiang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wei Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Ke Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Shaohua Guo, Liang Liu, Zhenye Gan, Yabiao Wang, Wuhao Zhang, Chengjie Wang, Guannan Jiang, Wei Zhang, Ran Yi*, Lizhuang Ma*, Ke Xu",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/cedricgsh/isdnet"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "GAN-based Multi-Style Photo Cartoonization",
+      "image": "images/TVCG-multi-cartoon.jpg",
+      "authors": [
+        {
+          "name": "Yezhi Shu#",
+          "isMe": false,
+          "corresponding": false,
+          "equal": true
+        },
+        {
+          "name": "Ran Yi# (equal contribution)",
+          "isMe": true,
+          "corresponding": false,
+          "equal": true,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wang Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yang Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yezhi Shu#, Ran Yi# (equal contribution), Mengfei Xia, Zipeng Ye, Wang Zhao, Yang Chen, Yu-Kun Lai, Yong-Jin Liu",
+      "venueShort": "TVCG",
+      "venueFull": "IEEE Transactions on Visualization and Computer Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9382902"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/syz825211943/Multi-Style-Photo-Cartoonization"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Adaptive Mixture of Experts Learning for Generalizable Face Anti-Spoofing",
+      "image": "images/ACM-MM-2022-AMEL-Face-Anti-Spoofing.jpg",
+      "authors": [
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ke-Yue Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Ran Yi, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/abs/10.1145/3503161.3547769"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Region-Aware Temporal Inconsistency Learning for DeepFake Video Detection",
+      "image": "images/IJCAI-2022-deepfake-detection.jpg",
+      "authors": [
+        {
+          "name": "Zhihao Gu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yang Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zhihao Gu, Taiping Yao, Yang Chen, Ran Yi, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "IJCAI",
+      "venueFull": "International Joint Conference on Artificial Intelligence",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.ijcai.org/proceedings/2022/129"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "ScatterNet: Point Cloud Learning via Scatters",
+      "image": "images/ACM-MM-2022-ScatterNet.jpg",
+      "authors": [
+        {
+          "name": "Qi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Nianjuan Jiang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangbo Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mingang Chen",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qi Liu, Nianjuan Jiang, Jiangbo Lu, Mingang Chen, Ran Yi*, Lizhuang Ma*",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/abs/10.1145/3503161.3548354"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Generative Domain Adaptation for Face Anti-Spoofing",
+      "image": "images/ECCV-2022-GDA-Face-Anti-Spoofing.jpg",
+      "authors": [
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ke-Yue Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Kekai Sheng",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Ran Yi, Kekai Sheng, Shouhong Ding, Lizhuang Ma",
+      "venueShort": "ECCV",
+      "venueFull": "European Conference on Computer Vision",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://link.springer.com/chapter/10.1007/978-3-031-20086-1_30"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Optimization over Disentangled Encoding: Unsupervised Cross-Domain Point Cloud Completion via Occlusion Factor Manipulation",
+      "image": "images/ECCV-2022-OptDE.jpg",
+      "authors": [
+        {
+          "name": "Jingyu Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Fengqi Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiachen Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Min Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xin Tan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhizhong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Haichuan Song",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yuan Xie",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Jingyu Gong, Fengqi Liu, Jiachen Xu, Min Wang, Xin Tan, Zhizhong Zhang, Ran Yi, Haichuan Song, Yuan Xie, Lizhuang Ma",
+      "venueShort": "ECCV",
+      "venueFull": "European Conference on Computer Vision",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://link.springer.com/chapter/10.1007/978-3-031-20086-1_30"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/azuki-miho/OptDE"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2022,
+      "title": "Domain Adaptive Semantic Segmentation via Regional Contrastive Consistency Regularization",
+      "image": "images/ICME-2022-RCCR.jpg",
+      "authors": [
+        {
+          "name": "Qianyu Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chuyun Zhuang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Xuequan Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma.",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qianyu Zhou, Chuyun Zhuang, Ran Yi, Xuequan Lu, Lizhuang Ma.",
+      "venueShort": "ICME",
+      "venueFull": "IEEE International Conference on Multimedia and Expo",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/abstract/document/9859793"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/qianyuzqy/RCCR"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2021,
+      "title": "Line Drawings for Face Portraits from Photos using Global and Local Structure based GANs",
+      "image": "images/TPAMI-portrait.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Mengfei Xia, Yong-Jin Liu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9069416/"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/APDrawingGAN2"
+        },
+        {
+          "type": "codeJittor",
+          "href": "https://github.com/yiranran/APDrawingGAN2-Jittor"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2021,
+      "title": "Feature-Aware Uniform Tessellations on Video Manifold for Content-Sensitive Supervoxels",
+      "image": "images/TPAMI-supervoxel.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wang Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Minjing Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Zipeng Ye, Wang Zhao, Minjing Yu, Yu-Kun Lai, Yong-Jin Liu",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/9031395"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/FCSS"
+        },
+        {
+          "type": "demo",
+          "href": "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/demo_fcss.wmv"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2021,
+      "title": "From traditional rendering to differentiable rendering: theories, methods and applications",
+      "image": "images/SCIENTIA-SINICA-2021-differentiable rendering.jpg",
+      "authors": [
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wenyu Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhiyao Sun",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Minjing Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zipeng Ye, Wenyu Xia, Zhiyao Sun, Ran Yi, Minjing Yu, Yong-Jin Liu",
+      "venueShort": "中国科学:信息科学",
+      "venueFull": "SCIENTIA SINICA Informationis",
+      "tags": [
+        "CCF A中文"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.sciengine.com/SSI/doi/10.1360/SSI-2020-0272"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2021,
+      "title": "Adversarial attack and interpretability of the deep neural network from the geometric perspective",
+      "image": "images/SCIENTIA-SINICA-2021-interpretability-geometric.jpg",
+      "authors": [
+        {
+          "name": "Mengfei Xia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wang Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Mengfei Xia, Zipeng Ye, Wang Zhao, Ran Yi, Yong-Jin Liu",
+      "venueShort": "中国科学:信息科学",
+      "venueFull": "SCIENTIA SINICA Informationis",
+      "tags": [
+        "CCF A中文"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.sciengine.com/SSI/doi/10.1360/SSI-2020-0169"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2021,
+      "title": "Unpaired Portrait Drawing Generation via Asymmetric Cycle Mapping",
+      "image": "images/CVPR-2020-Unpaired.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Yong-Jin Liu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yi_Unpaired_Portrait_Drawing_Generation_via_Asymmetric_Cycle_Mapping_CVPR_2020_paper.pdf"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/Unpaired-Portrait-Drawing"
+        },
+        {
+          "type": "codeJittor",
+          "href": "https://github.com/yiranran/Unpaired-Portrait-Drawing-Jittor"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2020,
+      "title": "Dirichlet energy of Delaunay meshes and intrinsic Delaunay triangulations",
+      "image": "images/CAD-Dirichlet.jpg",
+      "authors": [
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Wenyong Gong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zipeng Ye, Ran Yi, Wenyong Gong, Ying He, Yong-Jin Liu",
+      "venueShort": "CAD",
+      "venueFull": "Computer-Aided Design",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://www.sciencedirect.com/science/article/pii/S0010448520300440"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2020,
+      "title": "Audio-driven Talking Face Video Generation with Learning-based Personalized Head Pose",
+      "image": "images/Arxiv-2020-Audio-Driven-Talking-Head.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Zipeng Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Juyong Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Hujun Bao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Zipeng Ye, Juyong Zhang, Hujun Bao, Yong-Jin Liu",
+      "venueShort": "Arxiv",
+      "venueFull": "Arxiv",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://arxiv.org/abs/2002.10137"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/Audio-driven-TalkingFace-HeadPose"
+        },
+        {
+          "type": "demo",
+          "href": "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/video_arxiv.mp4"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2019,
+      "title": "APDrawingGAN: Generating Artistic Portrait Drawings from Face Photos with Hierarchical GANs",
+      "image": "images/CVPR-2019-APDrawingGAN.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Yong-Jin Liu, Yu-Kun Lai, Paul L. Rosin",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": true,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "http://openaccess.thecvf.com/content_CVPR_2019/html/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.html"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/yiranran/APDrawingGAN"
+        },
+        {
+          "type": "dataset",
+          "href": "http://cg.cs.tsinghua.edu.cn/people/~Yongjin/APDrawingDB.zip"
+        },
+        {
+          "type": "codeJittor",
+          "href": "https://github.com/yiranran/APDrawingGAN-Jittor"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2019,
+      "title": "Fast Computation of Content-Sensitive Superpixels and Supervoxels using q-distances",
+      "image": "images/ICCV-2019-qdcss2.jpg",
+      "authors": [
+        {
+          "name": "Zipeng Ye#",
+          "isMe": false,
+          "corresponding": false,
+          "equal": true
+        },
+        {
+          "name": "Ran Yi# (equal contribution)",
+          "isMe": true,
+          "corresponding": false,
+          "equal": true,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Minjing Yu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zipeng Ye#, Ran Yi# (equal contribution), Minjing Yu, Yong-Jin Liu, Ying He",
+      "venueShort": "ICCV",
+      "venueFull": "IEEE International Conference on Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Fast_Computation_of_Content-Sensitive_Superpixels_and_Supervoxels_Using_Q-Distances_ICCV_2019_paper.pdf"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/qq775193759/qdcss_open_source"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2018,
+      "title": "Delaunay Mesh Simplification with Differential Evolution",
+      "image": "images/TOG-2018-Delaunay.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Yong-Jin Liu, Ying He",
+      "venueShort": "TOG, SIGGRAPH Asia 2018",
+      "venueFull": "ACM Transactions on Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://doi.org/10.1145/3272127.3275068"
+        },
+        {
+          "type": "demo",
+          "href": "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3272127.3275068&file=a263-yi.mp4"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2018,
+      "title": "Content-Sensitive Supervoxels via Uniform Tessellations on Video Manifolds",
+      "image": "images/CVPR-2018-supervoxel.jpg",
+      "authors": [
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Ran Yi, Yong-Jin Liu, Yu-Kun Lai",
+      "venueShort": "CVPR",
+      "venueFull": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Yi_Content-Sensitive_Supervoxels_via_CVPR_2018_paper.pdf"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2016,
+      "title": "Manifold Differential Evolution (MDE): A Global Optimization Method for Geodesic Centroidal Voronoi Tessellations on Meshes",
+      "image": "images/TOG-2016-MDE.jpg",
+      "authors": [
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Chun-Xu Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Dian Fan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yong-Jin Liu, Chun-Xu Xu, Ran Yi, Dian Fan, Ying He",
+      "venueShort": "TOG, SIGGRAPH Asia 2016",
+      "venueFull": "ACM Transactions on Graphics",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://dl.acm.org/doi/10.1145/2980179.2982424"
+        },
+        {
+          "type": "demo",
+          "href": "http://cg.cs.tsinghua.edu.cn/people/~Yongjin/MDE-demo.zip"
+        }
+      ]
+    }
+  ]
+}

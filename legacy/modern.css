@@ -1,0 +1,688 @@
+/* ============================================================
+   Modern academic homepage style
+   Replaces the legacy jemdoc.css
+   ============================================================ */
+
+:root {
+    --bg: #fafaf9;
+    --bg-card: #ffffff;
+    --bg-soft: #f4f4f3;
+    --bg-hover: #f0f0ef;
+    --text: #1a1a1a;
+    --text-soft: #4b5563;
+    --text-muted: #6b7280;
+    --border: #e5e7eb;
+    --border-strong: #d1d5db;
+    --accent: #c2410c;        /* warm copper, scholarly */
+    --accent-hover: #9a3412;
+    --accent-soft: #fef3ee;
+    --link: #1d4ed8;
+    --link-hover: #c2410c;
+
+    /* Badge palette */
+    --badge-a-bg: #fee2e2;
+    --badge-a-fg: #b91c1c;
+    --badge-b-bg: #d1fae5;
+    --badge-b-fg: #047857;
+    --badge-oral-bg: #ede9fe;
+    --badge-oral-fg: #6d28d9;
+    --badge-cn-bg: #fef3c7;
+    --badge-cn-fg: #92400e;
+    --badge-neutral-bg: #f3f4f6;
+    --badge-neutral-fg: #4b5563;
+
+    /* Typography */
+    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+    --font-serif: "Newsreader", "Source Serif Pro", Georgia, "Songti SC",
+        "STSong", serif;
+
+    /* Layout */
+    --content-max: 1080px;
+    --radius: 10px;
+    --radius-sm: 6px;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #0f1115;
+        --bg-card: #181a20;
+        --bg-soft: #1f222a;
+        --bg-hover: #252832;
+        --text: #ececec;
+        --text-soft: #c0c4cd;
+        --text-muted: #8b91a0;
+        --border: #2a2e38;
+        --border-strong: #3a3f4b;
+        --accent: #f59e0b;
+        --accent-hover: #fbbf24;
+        --accent-soft: #2a1d10;
+        --link: #93c5fd;
+        --link-hover: #f59e0b;
+
+        --badge-a-bg: #3b1414;
+        --badge-a-fg: #fca5a5;
+        --badge-b-bg: #0e2e22;
+        --badge-b-fg: #6ee7b7;
+        --badge-oral-bg: #241b3a;
+        --badge-oral-fg: #c4b5fd;
+        --badge-cn-bg: #2f230d;
+        --badge-cn-fg: #fcd34d;
+        --badge-neutral-bg: #232730;
+        --badge-neutral-fg: #c0c4cd;
+
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+        --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    background-image: none;
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- Container ---------- */
+
+body > div,
+body > h2,
+body > p,
+body > table,
+body > ul,
+body > hr {
+    max-width: var(--content-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(16px, 4vw, 32px);
+    padding-right: clamp(16px, 4vw, 32px);
+}
+
+body > hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin-top: 2.5em;
+    margin-bottom: 0;
+    max-width: var(--content-max);
+}
+
+/* ---------- Hero / Header table ---------- */
+
+body > div[style*="margin-top:25px"] {
+    margin-top: 0 !important;
+    padding-top: clamp(32px, 6vw, 72px);
+    padding-bottom: clamp(24px, 4vw, 40px);
+}
+
+body > div[style*="margin-top:25px"] > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body > div[style*="margin-top:25px"] > table td {
+    vertical-align: top;
+    padding: 0;
+}
+
+body > div[style*="margin-top:25px"] > table td:first-child {
+    padding-right: clamp(16px, 3vw, 32px);
+}
+
+body > div[style*="margin-top:25px"] > table td:last-child {
+    width: 180px;
+    text-align: right;
+}
+
+body > div[style*="margin-top:25px"] img {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid var(--bg-card);
+    box-shadow: var(--shadow-md);
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+/* Name */
+body > div[style*="margin-top:25px"] font[size="5"] strong {
+    font-family: var(--font-serif);
+    font-size: clamp(2.1rem, 4vw, 2.8rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--text);
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+body > div[style*="margin-top:25px"] font[size="5"] {
+    font-size: inherit;
+}
+
+body > div[style*="margin-top:25px"] p {
+    font-size: 0.98rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+}
+
+/* ---------- Headings ---------- */
+
+h1, h2, h3 {
+    font-family: var(--font-serif);
+    color: var(--text);
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2.4em;
+    margin-bottom: 0.6em;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    scroll-margin-top: 80px;
+}
+
+h1 { font-size: 2rem; font-weight: 600; }
+h2 {
+    font-size: 1.55rem;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.4em;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: clamp(16px, 4vw, 32px);
+    width: 48px;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--accent);
+}
+/* The h2 has padding via body selector, so position the underline at content edge */
+body > h2::after { left: clamp(16px, 4vw, 32px); }
+
+h3 { font-size: 1.2rem; font-weight: 600; }
+
+h2 small {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    letter-spacing: 0;
+    margin-left: 12px;
+}
+
+h2 small a {
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--bg-soft);
+    transition: all 0.15s ease;
+    font-size: 0.72rem;
+}
+
+h2 small a:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+h2 small a u { text-decoration: none; }
+
+/* ---------- Paragraphs ---------- */
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    line-height: 1.75;
+    color: var(--text-soft);
+}
+
+/* ---------- Links ---------- */
+
+a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+a:hover {
+    color: var(--link-hover);
+    border-bottom-color: currentColor;
+}
+
+a u { text-decoration: none; }
+strong { font-weight: 600; color: var(--text); }
+em, i { color: var(--text-soft); }
+
+/* ---------- Top nav (quick links) ---------- */
+
+body > p:has(a[href="#interests"]) {
+    margin-top: 1.2em;
+    margin-bottom: 1.6em;
+    padding: 14px clamp(16px, 4vw, 32px);
+    max-width: var(--content-max);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.9;
+}
+
+body > p:has(a[href="#interests"]) a {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    border-bottom: none;
+    color: var(--text-soft);
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+
+body > p:has(a[href="#interests"]) a:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+body > p:has(a[href="#interests"]) a u { text-decoration: none; }
+body > p:has(a[href="#interests"]) br { display: none; }
+
+/* ---------- News ---------- */
+
+h2:has(font) { /* "News" with red color */
+    color: var(--text);
+}
+
+h2 font[color="red"] {
+    color: var(--text);
+    position: relative;
+}
+
+h2 font[color="red"]::before {
+    content: "● ";
+    color: var(--accent);
+    margin-right: 6px;
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+
+ul[style*="font-size: 11pt"] {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    border-left: 2px solid var(--border);
+    padding-left: 1.4em;
+}
+
+ul[style*="font-size: 11pt"] li {
+    font-size: 0.95rem;
+    margin-top: 0.7em;
+    position: relative;
+    color: var(--text-soft);
+    line-height: 1.65;
+}
+
+ul[style*="font-size: 11pt"] li::before {
+    content: "";
+    position: absolute;
+    left: -1.5em;
+    top: 0.65em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--border-strong);
+}
+
+ul[style*="font-size: 11pt"] li:first-child::before {
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+ul[style*="font-size: 11pt"] li font[color="red"] {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+/* Hide news rows past the 8th when collapsed */
+ul[data-collapsed="true"] li:nth-child(n+9) {
+    display: none;
+}
+
+.news-toggle {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 6px 14px;
+    background: var(--bg-soft);
+    color: var(--text-soft);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s ease;
+}
+
+.news-toggle:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+    padding-left: 1.4em;
+    color: var(--text-soft);
+}
+
+li {
+    margin-top: 0.5em;
+    line-height: 1.7;
+}
+
+ul { list-style-type: disc; }
+
+/* Honors list specific */
+h2:has(a[name="honors"]) + ul li {
+    margin-top: 0.6em;
+}
+
+/* ---------- Publications table ---------- */
+
+table[width="100%"][border="0"][cellpadding="5"] {
+    width: 100% !important;
+    max-width: var(--content-max);
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1em auto 2em;
+    padding: 0 clamp(16px, 4vw, 32px);
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr {
+    display: block;
+    margin-bottom: 14px;
+}
+
+/* Year separator rows */
+table[width="100%"][border="0"][cellpadding="5"] tr:has(> td:only-child) {
+    margin: 28px 0 14px;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(> td:only-child) td {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent);
+    padding: 0 0 8px;
+    border: none;
+    border-bottom: 2px solid var(--accent);
+    letter-spacing: -0.02em;
+}
+
+/* Special: the first tr with "Summary" - hide its special styling */
+table[width="100%"][border="0"][cellpadding="5"] tr:first-child {
+    display: block;
+    margin-bottom: 18px;
+    padding: 12px 16px;
+    background: var(--bg-soft);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:first-child small {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:first-child small:first-child {
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+/* Paper rows */
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 18px;
+    padding: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.15s ease, box-shadow 0.15s ease,
+        border-color 0.15s ease;
+    align-items: start;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img):hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--border-strong);
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) > td {
+    padding: 0;
+    border: none;
+    vertical-align: top;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) > td:first-child {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) img {
+    width: 120px !important;
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--bg-soft);
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) div[style*="margin-left"] {
+    margin-left: 0 !important;
+    font-size: 0.92rem;
+    color: var(--text);
+    line-height: 1.65;
+}
+
+/* Paper links: [paper] [code] etc. */
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) div a {
+    display: inline-block;
+    font-size: 0.82rem;
+    margin: 2px 4px 2px 0;
+    padding: 2px 8px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--link);
+    border-bottom: 1px solid var(--border);
+    transition: all 0.15s ease;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) div a:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) div i {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+}
+
+table[width="100%"][border="0"][cellpadding="5"] tr:has(img) div strong {
+    font-weight: 600;
+}
+
+/* ---------- Badges (from <font color="..."> tags) ---------- */
+
+font[color="red"] {
+    display: inline-block;
+    color: var(--badge-a-fg);
+    background: var(--badge-a-bg);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 1px 8px;
+    border-radius: 4px;
+    margin-left: 4px;
+    letter-spacing: 0.02em;
+}
+
+font[color="green"] {
+    display: inline-block;
+    color: var(--badge-b-fg);
+    background: var(--badge-b-bg);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 1px 8px;
+    border-radius: 4px;
+    margin-left: 4px;
+    letter-spacing: 0.02em;
+}
+
+font[color="purple"] {
+    display: inline-block;
+    color: var(--badge-oral-fg);
+    background: var(--badge-oral-bg);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 1px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+}
+
+font[color="gray"] {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+/* But keep News list red colors as inline accent, not badge */
+ul[style*="font-size: 11pt"] li font[color="red"] {
+    display: inline;
+    background: transparent;
+    padding: 0;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: inherit;
+}
+
+/* And top nav heading "News" */
+h2 font[color="red"] {
+    display: inline;
+    background: transparent;
+    padding: 0;
+    color: var(--text);
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Openings red highlight */
+body > p font[color="red"] {
+    display: block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--accent);
+    font-weight: 500;
+    font-size: 0.92rem;
+    margin: 12px 0 4px;
+    letter-spacing: 0;
+}
+
+/* ---------- Footer / misc ---------- */
+
+img { max-width: 100%; }
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5em auto;
+    max-width: var(--content-max);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 720px) {
+    body > div[style*="margin-top:25px"] > table,
+    body > div[style*="margin-top:25px"] > table tbody,
+    body > div[style*="margin-top:25px"] > table tr {
+        display: block;
+    }
+
+    body > div[style*="margin-top:25px"] > table td {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    body > div[style*="margin-top:25px"] > table td:last-child {
+        order: -1;
+        text-align: left;
+        margin-bottom: 18px;
+    }
+
+    body > div[style*="margin-top:25px"] > table {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    body > div[style*="margin-top:25px"] img {
+        width: 120px;
+    }
+
+    table[width="100%"][border="0"][cellpadding="5"] tr:has(img) {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    table[width="100%"][border="0"][cellpadding="5"] tr:has(img) img {
+        width: 100% !important;
+        max-width: 200px;
+    }
+
+    body > p:has(a[href="#interests"]) {
+        font-size: 0.85rem;
+    }
+}
+
+/* Print niceties */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    .news-toggle { display: none; }
+    ul[data-collapsed="true"] li:nth-child(n+9) {
+        display: list-item;
+    }
+}

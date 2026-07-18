@@ -127,19 +127,6 @@
             copy.appendChild(actions);
         }
 
-        if (Array.isArray(p.metrics) && p.metrics.length) {
-            const metrics = el("div", { class: "metrics", "aria-label": "Research summary" });
-            p.metrics.forEach((m) => {
-                metrics.appendChild(
-                    el("div", {}, [
-                        el("strong", { text: m.value }),
-                        el("span", { text: m.label }),
-                    ])
-                );
-            });
-            copy.appendChild(metrics);
-        }
-
         target.appendChild(copy);
 
         if (p.photo) {
@@ -367,8 +354,7 @@
             target.appendChild(grid);
         });
 
-        // total count + meta
-        slot("pubcount").textContent = `· ${pubs.items.length} papers`;
+        // meta
         const meta = slot("pubmeta");
         meta.innerHTML = "";
         if (pubs.summary) {

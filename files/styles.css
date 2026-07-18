@@ -299,36 +299,6 @@ main > .section:last-child { padding-bottom: 34vh; }
     margin: 0;
 }
 
-/* ---------- metrics --------------------------------------- */
-
-.metrics {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 28px;
-}
-
-.metrics div {
-    padding: 16px 18px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: rgba(255, 255, 255, 0.66);
-}
-
-.metrics strong {
-    display: block;
-    color: var(--accent-strong);
-    font-size: 1.65rem;
-    line-height: 1;
-}
-
-.metrics span {
-    display: block;
-    margin-top: 7px;
-    color: var(--muted);
-    font-size: 0.92rem;
-}
-
 /* ---------- news / timelines ------------------------------ */
 
 .news-list,
@@ -771,8 +741,6 @@ main > .section:last-child { padding-bottom: 34vh; }
         grid-template-columns: 1fr;
         gap: 2px;
     }
-
-    .metrics { grid-template-columns: 1fr; }
 
     .accent-section { padding: 28px 20px; }
 }

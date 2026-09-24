@@ -1,89 +1,6 @@
 {
-  "summary": "Summary: IEEE TPAMI (6) + ACM TOG (3) + IJCV (2) + SIGGRAPH (Asia) Conference (3) + CVPR/ICCV (31) + IEEE TVCG/TIP/TMM (11) + ICML/NeurIPS/ICLR (6) + AAAI/ACM MM (19)",
+  "summary": "Summary: IEEE TPAMI (7) + ACM TOG (3) + IJCV (3) + SIGGRAPH (Asia) Conference (3) + CVPR/ICCV (31) + IEEE TVCG/TIP/TMM (11) + ICML/NeurIPS/ICLR (9) + AAAI/ACM MM (19)",
   "items": [
-    {
-      "section": "recent",
-      "year": null,
-      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
-      "image": "images/2026-EgoSim.jpg",
-      "authors": [
-        {
-          "name": "Jinkun Hao",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Mingda Jia",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Ruiyan Wang",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Xihui Liu",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Ran Yi*",
-          "isMe": true,
-          "corresponding": true,
-          "equal": false,
-          "display": "Ran Yi"
-        },
-        {
-          "name": "Lizhuang Ma*",
-          "isMe": false,
-          "corresponding": true,
-          "equal": false
-        },
-        {
-          "name": "Jiangmiao Pang",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Xudong Xu",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        }
-      ],
-      "authorsRaw": "Jinkun Hao, Mingda Jia, Ruiyan Wang, Xihui Liu, Ran Yi*, Lizhuang Ma*, Jiangmiao Pang, Xudong Xu",
-      "venueShort": "2026.04",
-      "venueFull": "2026.04",
-      "tags": [],
-      "oral": false,
-      "spotlight": false,
-      "aliases": [],
-      "notes": [],
-      "links": [
-        {
-          "type": "demo",
-          "href": "https://egosimulator.github.io/videos/demovideo.mp4"
-        },
-        {
-          "type": "project",
-          "href": "https://egosimulator.github.io/"
-        },
-        {
-          "type": "arxiv",
-          "href": "https://arxiv.org/abs/2604.01001"
-        },
-        {
-          "type": "code",
-          "href": "https://github.com/jinkun-hao/EgoSim"
-        }
-      ]
-    },
     {
       "section": "yearly",
       "year": 2026,
@@ -166,6 +83,10 @@
           "href": "https://sjtuplayer.github.io/projects/Harmony/"
         },
         {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_Harmony_Harmonizing_Audio_and_Video_Generation_through_Cross-Task_Synergy_CVPR_2026_paper.html"
+        },
+        {
           "type": "arxiv",
           "href": "https://arxiv.org/abs/2511.21579"
         },
@@ -239,12 +160,171 @@
           "href": "https://ryan-w2024.github.io/project/PoseAnything/"
         },
         {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_PoseAnything_General_Pose-guided_Video_Generation_with_Part-aware_Temporal_Coherence_CVPR_2026_paper.html"
+        },
+        {
           "type": "arxiv",
           "href": "https://arxiv.org/abs/2512.13465"
         },
         {
           "type": "code",
           "href": "https://github.com/Ryan-w2024/PoseAnything"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "image": "images/2026-EgoSim.jpg",
+      "authors": [
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mingda Jia",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruiyan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xihui Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi*",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false,
+          "display": "Ran Yi"
+        },
+        {
+          "name": "Lizhuang Ma*",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Jiangmiao Pang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xudong Xu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Jinkun Hao, Mingda Jia, Ruiyan Wang, Xihui Liu, Ran Yi*, Lizhuang Ma*, Jiangmiao Pang, Xudong Xu",
+      "venueShort": "ECCV",
+      "venueFull": "European Conference on Computer Vision",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "demo",
+          "href": "https://egosimulator.github.io/videos/demovideo.mp4"
+        },
+        {
+          "type": "project",
+          "href": "https://egosimulator.github.io/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2604.01001"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/jinkun-hao/EgoSim"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency",
+      "image": "images/ECCV-2026-Cycle-World.png",
+      "authors": [
+        {
+          "name": "Zihan Su",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ruiyan Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Dacheng Tao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Zihan Su, Teng Hu, Jiangning Zhang, Ruiyan Wang, Ran Yi*, Lizhuang Ma*, Dacheng Tao",
+      "venueShort": "ECCV",
+      "venueFull": "European Conference on Computer Vision",
+      "tags": [
+        "CCF B"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://szhcz.github.io/projects/Cycle-World/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2607.11836"
         }
       ]
     },
@@ -300,8 +380,148 @@
           "href": "https://sjtuplayer.github.io/projects/UltraGen"
         },
         {
+          "type": "paper",
+          "href": "https://ojs.aaai.org/index.php/AAAI/article/view/42496"
+        },
+        {
           "type": "arxiv",
           "href": "https://arxiv.org/abs/2510.18775"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Semantic Frame Interpolation",
+      "image": "images/TIP-2026-Semantic-Frame-Interpolation.png",
+      "authors": [
+        {
+          "name": "Yijia Hong",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Weijian Cao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Xiaobin Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Shuicheng Yan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yijia Hong, Jiangning Zhang, Ran Yi*, Weijian Cao, Xiaobin Hu, Lizhuang Ma*, Shuicheng Yan",
+      "venueShort": "TIP",
+      "venueFull": "IEEE Transactions on Image Processing",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://doi.org/10.1109/TIP.2026.3700881"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2507.05173"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "LatentFlow3D: Unified Point Cloud Processing via Latent Space Modeling in Invertible Neural Networks",
+      "image": "images/IJCV-2026-LatentFlow3D.png",
+      "authors": [
+        {
+          "name": "Aihua Mao",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Biao Yan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jun Yang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yaqi Duan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Aihua Mao*, Biao Yan, Jun Yang, Yaqi Duan, Ran Yi*, Yong-Jin Liu, Ying He",
+      "venueShort": "IJCV",
+      "venueFull": "International Journal of Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://link.springer.com/article/10.1007/s11263-026-02990-1"
         }
       ]
     },
@@ -424,6 +644,10 @@
         {
           "type": "project",
           "href": "https://vankouf.github.io/DSONet/"
+        },
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2026/html/Fan_Open_the_Motion_Door_Atomic_Motion_Decomposition_and_Recomposition_for_CVPR_2026_paper.html"
         }
       ]
     },
@@ -493,7 +717,78 @@
       "spotlight": false,
       "aliases": [],
       "notes": [],
-      "links": []
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Beyond_CLS_Token_Query-Driven_Token-Level_Forgery_Purification_for_Generalizable_Deepfake_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "Breaking Manifold Continuity: Vector Quantized Modeling for Real-Centric Deepfake Detection",
+      "image": "images/ICML-2026-Breaking-Manifold-Continuity.png",
+      "authors": [
+        {
+          "name": "Changshuo Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangming Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ke-Yue Zhang",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Taiping Yao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Shouhong Ding",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Changshuo Wang, Jiangming Wang, Ke-Yue Zhang*, Taiping Yao, Shouhong Ding, Ran Yi*, Lizhuang Ma*",
+      "venueShort": "ICML",
+      "venueFull": "International Conference on Machine Learning",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://openreview.net/forum?id=WrlqkXYYCx"
+        }
+      ]
     },
     {
       "section": "yearly",

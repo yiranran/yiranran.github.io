@@ -193,16 +193,19 @@
         // Prefer the explicit `display` field; otherwise strip trailing markers
         // ("*" corresponding, "#" equal) from `name` so we don't double them up.
         const raw = a.display || a.name || "";
-        return raw.replace(/[*#]+$/, "").trim();
+        return raw.replace(/[*#†]+$/, "").trim();
     }
 
-    function authorsHtml(authors) {
+    function authorsHtml(authors, showCorrespondingOverride = false) {
+        const showCorresponding = showCorrespondingOverride || authors.some((a) => a.isMe && a.corresponding);
+        const showEqual = authors.some((a) => a.isMe && a.equal);
         return authors
             .map((a) => {
                 let s = escapeHtml(cleanName(a));
                 if (a.isMe) s = `<strong class="me">${s}</strong>`;
-                if (a.corresponding) s += "*";
-                if (a.equal) s += "<sup>#</sup>";
+                if (showCorresponding && a.corresponding) s += "*";
+                if (showEqual && a.equal) s += "<sup>#</sup>";
+                if (a.isMe && a.projectLead) s += '<sup title="Project Lead">†</sup>';
                 return s;
             })
             .join(", ");
@@ -260,7 +263,7 @@
         body.appendChild(el("div", { class: "publication-title", text: p.title }));
 
         const authorsDiv = el("div", { class: "publication-authors" });
-        authorsDiv.innerHTML = authorsHtml(p.authors || []);
+        authorsDiv.innerHTML = authorsHtml(p.authors || [], p.showCorresponding === true);
         body.appendChild(authorsDiv);
 
         // Venue row: full venue name on the left, then badges (venue short
@@ -362,7 +365,7 @@
         }
         meta.appendChild(
             el("p", {
-                text: "* corresponding author     # equal contribution",
+                text: "* corresponding author     # equal contribution     † Project Lead",
             })
         );
     }

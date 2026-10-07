@@ -2,6 +2,156 @@
   "summary": "Summary: IEEE TPAMI (7) + ACM TOG (3) + IJCV (3) + SIGGRAPH (Asia) Conference (3) + CVPR/ICCV (31) + IEEE TVCG/TIP/TMM (11) + ICML/NeurIPS/ICLR (9) + AAAI/ACM MM (19)",
   "items": [
     {
+      "section": "recent",
+      "year": 2026,
+      "title": "PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation",
+      "image": "images/arXiv-2026-PhysAgent.png",
+      "authors": [
+        {
+          "name": "Qirui Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yibo Li",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Paul L. Rosin",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yu-Kun Lai",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Qirui Li, Jinkun Hao, Yibo Li, Ran Yi*, Paul L. Rosin, Yu-Kun Lai",
+      "venueShort": "arXiv",
+      "venueFull": "arXiv",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://iapple233.github.io/PhysAgent/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2607.16355"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/IApple233/PhysAgent"
+        }
+      ]
+    },
+    {
+      "section": "recent",
+      "year": 2026,
+      "title": "MetaWorld: Scaling Multi-Agent Video World Model from Single-view Video Data",
+      "image": "images/arXiv-2026-MetaWorld.png",
+      "authors": [
+        {
+          "name": "Teng Hu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Mingchun Lu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yating Wang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jiangning Zhang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jinkun Hao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ye Pan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Dacheng Tao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Teng Hu, Mingchun Lu, Yating Wang, Jiangning Zhang, Jinkun Hao, Ye Pan, Ran Yi*, Lizhuang Ma, Dacheng Tao",
+      "venueShort": "arXiv",
+      "venueFull": "arXiv",
+      "tags": [],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "project",
+          "href": "https://sjtuplayer.github.io/projects/MetaWorld/"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2606.02753"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/sjtuplayer/metaworld"
+        }
+      ]
+    },
+    {
       "section": "yearly",
       "year": 2026,
       "title": "Harmony: Harmonizing Audio and Video Generation through Cross-Task Synergy",
@@ -170,6 +320,142 @@
         {
           "type": "code",
           "href": "https://github.com/Ryan-w2024/PoseAnything"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "StdGEN++: A Comprehensive System for Semantic-Decomposed 3D Character Generation",
+      "image": "images/TPAMI-2026-StdGEN++.png",
+      "authors": [
+        {
+          "name": "Yuze He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yanning Zhou",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Wang Zhao",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jingwen Ye",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Zhongkai Wu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Yuze He, Yanning Zhou, Wang Zhao, Jingwen Ye, Zhongkai Wu, Ran Yi, Yong-Jin Liu",
+      "venueShort": "TPAMI",
+      "venueFull": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://ieeexplore.ieee.org/document/11698903"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2601.07660"
+        }
+      ]
+    },
+    {
+      "section": "yearly",
+      "year": 2026,
+      "title": "LatentFlow3D: Unified Point Cloud Processing via Latent Space Modeling in Invertible Neural Networks",
+      "image": "images/IJCV-2026-LatentFlow3D.png",
+      "authors": [
+        {
+          "name": "Aihua Mao",
+          "isMe": false,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Biao Yan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Jun Yang",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Yaqi Duan",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ran Yi",
+          "isMe": true,
+          "corresponding": true,
+          "equal": false
+        },
+        {
+          "name": "Yong-Jin Liu",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        },
+        {
+          "name": "Ying He",
+          "isMe": false,
+          "corresponding": false,
+          "equal": false
+        }
+      ],
+      "authorsRaw": "Aihua Mao*, Biao Yan, Jun Yang, Yaqi Duan, Ran Yi*, Yong-Jin Liu, Ying He",
+      "venueShort": "IJCV",
+      "venueFull": "International Journal of Computer Vision",
+      "tags": [
+        "CCF A"
+      ],
+      "oral": false,
+      "spotlight": false,
+      "aliases": [],
+      "notes": [],
+      "links": [
+        {
+          "type": "paper",
+          "href": "https://link.springer.com/article/10.1007/s11263-026-02990-1"
         }
       ]
     },
@@ -462,55 +748,38 @@
     {
       "section": "yearly",
       "year": 2026,
-      "title": "LatentFlow3D: Unified Point Cloud Processing via Latent Space Modeling in Invertible Neural Networks",
-      "image": "images/IJCV-2026-LatentFlow3D.png",
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "image": "images/ACMMM-2026-TRACE-Bench.webp",
       "authors": [
         {
-          "name": "Aihua Mao",
-          "isMe": false,
-          "corresponding": true,
-          "equal": false
-        },
-        {
-          "name": "Biao Yan",
+          "name": "Haoran Wang",
           "isMe": false,
           "corresponding": false,
-          "equal": false
+          "equal": true
         },
         {
-          "name": "Jun Yang",
+          "name": "Chaofan Ma",
           "isMe": false,
           "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Yaqi Duan",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
+          "equal": true
         },
         {
           "name": "Ran Yi",
           "isMe": true,
+          "corresponding": false,
+          "equal": false,
+          "projectLead": true
+        },
+        {
+          "name": "Lizhuang Ma",
+          "isMe": false,
           "corresponding": true,
-          "equal": false
-        },
-        {
-          "name": "Yong-Jin Liu",
-          "isMe": false,
-          "corresponding": false,
-          "equal": false
-        },
-        {
-          "name": "Ying He",
-          "isMe": false,
-          "corresponding": false,
           "equal": false
         }
       ],
-      "authorsRaw": "Aihua Mao*, Biao Yan, Jun Yang, Yaqi Duan, Ran Yi*, Yong-Jin Liu, Ying He",
-      "venueShort": "IJCV",
-      "venueFull": "International Journal of Computer Vision",
+      "authorsRaw": "Haoran Wang, Chaofan Ma, Ran Yi†, Lizhuang Ma*",
+      "venueShort": "ACM MM",
+      "venueFull": "ACM International Conference on Multimedia",
       "tags": [
         "CCF A"
       ],
@@ -520,10 +789,23 @@
       "notes": [],
       "links": [
         {
+          "type": "project",
+          "href": "https://amuseum-whr.github.io/TraceBench/"
+        },
+        {
           "type": "paper",
-          "href": "https://link.springer.com/article/10.1007/s11263-026-02990-1"
+          "href": "https://arxiv.org/pdf/2608.16765"
+        },
+        {
+          "type": "arxiv",
+          "href": "https://arxiv.org/abs/2608.16765"
+        },
+        {
+          "type": "code",
+          "href": "https://github.com/Amuseum-WHR/TraceBench"
         }
-      ]
+      ],
+      "showCorresponding": true
     },
     {
       "section": "yearly",

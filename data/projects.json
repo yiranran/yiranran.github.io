@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "name": "Make-It-3D",
+      "description": "High-fidelity 3D creation from a single image with diffusion priors.",
+      "repo": "junshutang/Make-It-3D",
+      "project": "https://make-it-3d.github.io/"
+    },
+    {
+      "name": "MV-Adapter",
+      "description": "Multi-view consistent image generation with diffusion models.",
+      "repo": "huanngzh/MV-Adapter",
+      "project": "https://huanngzh.github.io/MV-Adapter-Page/"
+    },
+    {
+      "name": "T3Bench",
+      "description": "A text-to-3D benchmark with 300 prompts for evaluating generation quality and text alignment.",
+      "repo": "THU-LYJ-Lab/T3Bench",
+      "project": "https://t3bench.com/"
+    },
+    {
+      "name": "Audio-driven Talking Face",
+      "description": "Audio-driven talking face video generation with personalized head pose.",
+      "repo": "yiranran/Audio-driven-TalkingFace-HeadPose"
+    }
+  ]
+}

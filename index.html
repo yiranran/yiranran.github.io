@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;850&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./files/styles.css">
+    <link rel="stylesheet" href="./files/styles.css?v=20261007-patents">
     <title>Ran Yi | Shanghai Jiao Tong University</title>
 </head>
 
@@ -21,9 +21,12 @@
         <a href="#news">News</a>
         <a href="#biography">Bio</a>
         <a href="#interests">Research</a>
+        <a href="#funding">Funding</a>
         <a href="#openings">Openings</a>
+        <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
         <a href="#honors">Awards</a>
+        <a href="#patents">Patents</a>
         <a href="#education">Edu</a>
         <a href="#working">Work</a>
         <a href="#course">Teaching</a>
@@ -64,12 +67,29 @@
         <div data-section="interests"></div>
     </section>
 
+    <section class="section" id="funding">
+        <div class="section-heading">
+            <p class="eyebrow">科研项目</p>
+            <h2>Research Funding</h2>
+        </div>
+        <ul class="clean-list funding-list" data-section="funding" lang="zh-CN"></ul>
+        <noscript><p>Please enable JavaScript to view research funding.</p></noscript>
+    </section>
+
     <section class="section accent-section" id="openings">
         <div class="section-heading">
             <p class="eyebrow">Students</p>
             <h2>Openings / Internship</h2>
         </div>
         <div class="opening-content" data-section="openings"></div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="section-heading">
+            <p class="eyebrow">代表性开源项目</p>
+            <h2>Selected Open-Source Projects</h2>
+        </div>
+        <ul class="clean-list project-list" data-section="projects"></ul>
     </section>
 
     <section class="section publications-section" id="publications">
@@ -90,6 +110,20 @@
         </div>
         <ul class="timeline-list" data-section="awards"></ul>
         <noscript><p>Please enable JavaScript to view the honors list.</p></noscript>
+        <div class="awards-students" id="student-awards">
+            <h3>指导学生获奖</h3>
+            <p>以下列出指导学生获得的代表性奖项与科研资助。</p>
+            <ul class="clean-list" data-section="student_awards" lang="zh-CN"></ul>
+        </div>
+    </section>
+
+    <section class="section" id="patents">
+        <div class="section-heading">
+            <p class="eyebrow">授权专利</p>
+            <h2>Granted Patents</h2>
+        </div>
+        <ul class="clean-list patent-list" data-section="patents" lang="zh-CN"></ul>
+        <noscript><p>Please enable JavaScript to view granted patents.</p></noscript>
     </section>
 
     <section class="section compact-grid">
@@ -120,7 +154,7 @@
         <div id="activities" class="info-block">
             <div class="section-heading">
                 <p class="eyebrow">Service</p>
-                <h2>Activities</h2>
+                <h2>Academic Service</h2>
             </div>
             <ul class="clean-list" data-section="activities"></ul>
         </div>
@@ -132,6 +166,6 @@
     <a href="#top">Back to top</a>
 </footer>
 
-<script src="./files/render.js?v=20261007-author-roles" defer></script>
+<script src="./files/render.js?v=20261007-patents" defer></script>
 </body>
 </html>

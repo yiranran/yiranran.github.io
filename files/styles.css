@@ -85,9 +85,9 @@ main,
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 16px;
     width: min(var(--max-width), calc(100% - 40px));
-    min-height: 58px;
+    min-height: 64px;
     margin: 0 auto;
     padding: 10px 0;
     background: rgba(247, 248, 244, 0.88);
@@ -106,6 +106,7 @@ main,
 }
 
 .brand-link {
+    flex-shrink: 0;
     color: var(--ink);
     font-weight: 800;
     font-size: 1.03rem;
@@ -113,10 +114,19 @@ main,
 
 .nav-links {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 2px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
 }
+
+.nav-links a { flex-shrink: 0; white-space: nowrap; }
+.nav-links::-webkit-scrollbar { height: 4px; }
+.nav-links::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
 
 .nav-links a,
 .year-nav a {
@@ -130,6 +140,8 @@ main,
     font-size: 0.91rem;
     line-height: 1.2;
 }
+
+.nav-links a { padding-inline: 8px; }
 
 .nav-links a:hover,
 .year-nav a:hover {
@@ -274,7 +286,7 @@ h2 {
 .section {
     padding: 34px 0;
     border-bottom: 1px solid var(--line);
-    scroll-margin-top: 36px;
+    scroll-margin-top: 80px;
 }
 
 main > .section:first-child { padding-top: 18px; }
@@ -416,7 +428,7 @@ main > .section:last-child { padding-bottom: 34vh; }
 
 .year-nav {
     position: sticky;
-    top: 58px;
+    top: 64px;
     z-index: 90;
     display: flex;
     flex-wrap: wrap;
@@ -653,8 +665,29 @@ main > .section:last-child { padding-bottom: 34vh; }
     color: var(--muted);
     font-variant-numeric: tabular-nums;
     font-weight: 700;
-    margin-right: 8px;
+    white-space: nowrap;
 }
+
+.patent-details { margin: 4px 0 0; color: var(--muted); font-size: 0.92rem; }
+.patent-details time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.awards-students {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    scroll-margin-top: 80px;
+}
+.awards-students h3 { margin: 0 0 12px; font-size: 1.25rem; }
+
+/* ---------- research funding ----------------------------- */
+
+.funding-list li { padding-bottom: 10px; line-height: 1.75; }
+
+/* ---------- selected open-source projects ---------------- */
+
+.project-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.project-stars { border: 0; overflow: hidden; flex-shrink: 0; }
+.project-description { margin: 4px 0 0; }
 
 /* ---------- compact grid (edu / work / teach / svc) ------- */
 
@@ -670,7 +703,7 @@ main > .section:last-child { padding-bottom: 34vh; }
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: rgba(255, 255, 255, 0.72);
-    scroll-margin-top: 40px;
+    scroll-margin-top: 80px;
 }
 
 .info-block .section-heading { margin-bottom: 16px; }
@@ -698,14 +731,10 @@ main > .section:last-child { padding-bottom: 34vh; }
     }
 
     .top-nav {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 8px;
+        gap: 12px;
     }
 
     .nav-links { justify-content: flex-start; }
-
-    .year-nav { top: 102px; }
 
     .section,
     .info-block { scroll-margin-top: 78px; }

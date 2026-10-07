@@ -9,6 +9,7 @@
   "photo": "./files/ry-2.JPG",
   "actions": [
     { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=y68DLo4AAAAJ&hl=en", "primary": true },
+    { "label": "中文主页", "href": "https://cs.sjtu.edu.cn/jiaoshiml/yiran.html" },
     { "label": "DMCV Lab", "href": "https://dmcv.sjtu.edu.cn/people/" },
     { "label": "Openings", "href": "#openings" }
   ]

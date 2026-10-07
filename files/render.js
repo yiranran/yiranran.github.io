@@ -12,7 +12,7 @@
     const $ = (sel, root = document) => root.querySelector(sel);
 
     function loadJSON(name) {
-        return fetch(`./data/${name}.json`).then((r) => {
+        return fetch(`./data/${name}.json`, { cache: "no-store" }).then((r) => {
             if (!r.ok) throw new Error(`Failed to load data/${name}.json (${r.status})`);
             return r.json();
         });
@@ -173,6 +173,30 @@
             const ul = el("ul", { class: "tag-list" });
             d.items.forEach((t) => ul.appendChild(el("li", { text: t })));
             target.appendChild(ul);
+        }
+    }
+
+    // ---------- research funding ------------------------------------------
+
+    function renderFunding(data) {
+        const target = slot("funding");
+        data.items.forEach((project) => {
+            const details = [
+                project.title !== project.program ? project.title : null,
+                project.period,
+                project.budget,
+                project.role,
+            ].filter(Boolean);
+            target.appendChild(el("li", {}, [
+                el("strong", { text: project.program }),
+                `，${details.join("，")}`,
+            ]));
+        });
+        if (data.industryCollaborations) {
+            target.appendChild(el("li", {}, [
+                el("strong", { text: "企业合作：" }),
+                data.industryCollaborations,
+            ]));
         }
     }
 
@@ -370,16 +394,63 @@
         );
     }
 
+    // ---------- selected open-source projects -----------------------------
+
+    function renderProjects(projects) {
+        const target = slot("projects");
+        projects.items.forEach((p) => {
+            const li = el("li");
+            const [owner, repo] = p.repo.split("/");
+            const heading = el("div", { class: "project-heading" }, [
+                el("strong", { text: p.name }),
+                el("iframe", {
+                    class: "project-stars",
+                    src: `https://ghbtns.com/github-btn.html?user=${encodeURIComponent(owner)}&repo=${encodeURIComponent(repo)}&type=star&count=true`,
+                    width: 110, height: 20, scrolling: "no", loading: "lazy",
+                    title: `${p.name} GitHub stars`,
+                }),
+            ]);
+            li.appendChild(heading);
+            li.appendChild(el("p", { class: "project-description", text: p.description }));
+            target.appendChild(li);
+        });
+    }
+
     // ---------- awards -----------------------------------------------------
 
     function renderAwards(items) {
         const target = slot("awards");
         items.forEach((a) => {
+            if (a.hidden) return;
             const li = el("li");
-            if (a.date) li.appendChild(el("time", { text: a.date }));
             const span = el("span");
             span.innerHTML = a.htmlContent || escapeHtml(a.text || "");
             li.appendChild(span);
+            if (a.date) {
+                li.appendChild(document.createTextNode(", "));
+                li.appendChild(el("time", { text: a.date }));
+            }
+            target.appendChild(li);
+        });
+    }
+
+    // ---------- granted patents -------------------------------------------
+
+    function renderPatents(items) {
+        const target = slot("patents");
+        items.forEach((p) => {
+            const li = el("li");
+            li.appendChild(el("strong", { text: p.title }));
+            const details = el("p", { class: "patent-details" });
+            p.inventors.forEach((name, i) => {
+                if (i) details.appendChild(document.createTextNode("、"));
+                details.appendChild(name === "易冉"
+                    ? el("strong", { text: name })
+                    : document.createTextNode(name));
+            });
+            details.appendChild(document.createTextNode(`；${p.type}；${p.number}；授权日期：`));
+            details.appendChild(el("time", { datetime: p.granted, text: p.granted.replace(/-/g, ".") }));
+            li.appendChild(details);
             target.appendChild(li);
         });
     }
@@ -399,7 +470,7 @@
 
     async function main() {
         try {
-            const [profile, bio, news, interests, openings, pubs, awards, edu, work, courses, acts] =
+            const [profile, bio, news, interests, openings, pubs, awards, edu, work, courses, acts, funding, projects, studentAwards, patents] =
                 await Promise.all([
                     loadJSON("profile"),
                     loadJSON("bio"),
@@ -412,6 +483,10 @@
                     loadJSON("working"),
                     loadJSON("courses"),
                     loadJSON("activities"),
+                    loadJSON("funding"),
+                    loadJSON("projects"),
+                    loadJSON("student_awards"),
+                    loadJSON("patents"),
                 ]);
 
             renderProfile(profile);
@@ -419,9 +494,13 @@
             renderBio(bio);
             renderNews(news);
             renderInterests(interests);
+            renderFunding(funding);
             renderOpenings(openings);
+            renderProjects(projects);
             renderPublications(pubs);
             renderAwards(awards);
+            renderHtmlList(studentAwards, "student_awards");
+            renderPatents(patents);
             renderHtmlList(edu, "education");
             renderHtmlList(work, "working");
             renderHtmlList(courses, "courses");

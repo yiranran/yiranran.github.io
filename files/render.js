@@ -47,6 +47,7 @@
     // ---------- link icons -------------------------------------------------
 
     const ICONS = {
+        github:  `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>`,
         paper:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`,
         arxiv:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l8 16 8-16"/><path d="M8 4l4 8 4-8"/></svg>`,
         code:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
@@ -396,20 +397,90 @@
 
     // ---------- selected open-source projects -----------------------------
 
+    async function updateProjectStars(repos, count, snapshot) {
+        const uniqueRepos = [...new Set(repos)];
+        const cacheKey = `project-stars:${uniqueRepos.join(",")}`;
+        let cached;
+        try {
+            cached = JSON.parse(localStorage.getItem(cacheKey));
+        } catch (_) { /* Storage may be unavailable. */ }
+        const validCache = cached && Number.isInteger(cached.total) && cached.total >= 0;
+        const validSnapshot = snapshot && Number.isInteger(snapshot.count) && snapshot.count >= 0;
+        const showTotal = (total) => {
+            count.textContent = total.toLocaleString("en-US");
+            count.title = `${uniqueRepos.length > 1 ? "Combined stars" : "GitHub stars"}: ${uniqueRepos.join(" + ")}`;
+        };
+        if (validSnapshot) {
+            showTotal(snapshot.count);
+            count.title += ` (last verified ${snapshot.checkedAt})`;
+        }
+        if (validCache) {
+            showTotal(cached.total);
+            if (Date.now() - cached.updatedAt < 60 * 60 * 1000) return;
+        }
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 10000);
+        try {
+            const stars = await Promise.all(uniqueRepos.map(async (repo) => {
+                const response = await fetch(`https://api.github.com/repos/${repo}`, {
+                    credentials: "omit",
+                    signal: controller.signal,
+                    headers: { Accept: "application/vnd.github+json" },
+                });
+                if (!response.ok) throw new Error(`GitHub stars unavailable (${response.status})`);
+                const data = await response.json();
+                if (!Number.isInteger(data.stargazers_count) || data.stargazers_count < 0)
+                    throw new Error("Invalid GitHub star count");
+                return data.stargazers_count;
+            }));
+            const total = stars.reduce((sum, value) => sum + value, 0);
+            showTotal(total);
+            try {
+                localStorage.setItem(cacheKey, JSON.stringify({ total, updatedAt: Date.now() }));
+            } catch (_) { /* The live count works without storage. */ }
+        } catch (_) {
+            if (!validCache && !validSnapshot) count.textContent = "—";
+            if (validCache) count.title = "Last available star count";
+            else if (!validSnapshot) count.title = "Star count temporarily unavailable";
+        } finally {
+            clearTimeout(timeout);
+            controller.abort();
+        }
+    }
+
     function renderProjects(projects) {
         const target = slot("projects");
         projects.items.forEach((p) => {
             const li = el("li");
-            const [owner, repo] = p.repo.split("/");
-            const heading = el("div", { class: "project-heading" }, [
-                el("strong", { text: p.name }),
-                el("iframe", {
-                    class: "project-stars",
-                    src: `https://ghbtns.com/github-btn.html?user=${encodeURIComponent(owner)}&repo=${encodeURIComponent(repo)}&type=star&count=true`,
-                    width: 110, height: 20, scrolling: "no", loading: "lazy",
-                    title: `${p.name} GitHub stars`,
-                }),
-            ]);
+            const heading = el("div", { class: "project-heading" }, [el("strong", { text: p.name })]);
+            const count = el("span", { class: "combined-star-count", text: "…", "aria-live": "polite" });
+            const stars = el("span", { class: "combined-stars" });
+            if (p.starRepos && p.starRepos.length > 1) {
+                p.starRepos.forEach((repository, i) => {
+                    if (i) stars.appendChild(el("span", { text: "+" }));
+                    stars.appendChild(el("a", {
+                        class: "combined-star-link", href: `https://github.com/${repository.repo}`,
+                        target: "_blank", rel: "noopener noreferrer",
+                        title: repository.repo,
+                    }, [
+                        el("span", { class: "repository-github-icon", html: ICONS.github, "aria-hidden": "true" }),
+                        repository.label,
+                    ]));
+                });
+                stars.appendChild(el("span", { class: "combined-star-label", text: "= ★ Total stars" }));
+                updateProjectStars(p.starRepos.map(repository => repository.repo), count, p.starsSnapshot);
+            } else {
+                stars.appendChild(el("a", {
+                    class: "combined-star-link", href: `https://github.com/${p.repo}`,
+                    target: "_blank", rel: "noopener noreferrer", title: p.repo,
+                }, [
+                    el("span", { class: "repository-github-icon", html: ICONS.github, "aria-hidden": "true" }),
+                    "Star",
+                ]));
+                updateProjectStars([p.repo], count, p.starsSnapshot);
+            }
+            stars.appendChild(count);
+            heading.appendChild(stars);
             li.appendChild(heading);
             li.appendChild(el("p", { class: "project-description", text: p.description }));
             target.appendChild(li);

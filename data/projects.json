@@ -4,24 +4,32 @@
       "name": "Make-It-3D",
       "description": "High-fidelity 3D creation from a single image with diffusion priors.",
       "repo": "junshutang/Make-It-3D",
+      "starsSnapshot": { "count": 1936, "checkedAt": "2026-10-07" },
+      "starRepos": [
+        { "repo": "junshutang/Make-It-3D", "label": "PyTorch" },
+        { "repo": "DMCV-SJTU/Make-it-3D-Jittor", "label": "Jittor" }
+      ],
       "project": "https://make-it-3d.github.io/"
     },
     {
       "name": "MV-Adapter",
       "description": "Multi-view consistent image generation with diffusion models.",
       "repo": "huanngzh/MV-Adapter",
+      "starsSnapshot": { "count": 1295, "checkedAt": "2026-10-07" },
       "project": "https://huanngzh.github.io/MV-Adapter-Page/"
     },
     {
       "name": "T3Bench",
       "description": "A text-to-3D benchmark with 300 prompts for evaluating generation quality and text alignment.",
       "repo": "THU-LYJ-Lab/T3Bench",
+      "starsSnapshot": { "count": 1100, "checkedAt": "2026-10-07" },
       "project": "https://t3bench.com/"
     },
     {
       "name": "Audio-driven Talking Face",
       "description": "Audio-driven talking face video generation with personalized head pose.",
-      "repo": "yiranran/Audio-driven-TalkingFace-HeadPose"
+      "repo": "yiranran/Audio-driven-TalkingFace-HeadPose",
+      "starsSnapshot": { "count": 770, "checkedAt": "2026-10-07" }
     }
   ]
 }

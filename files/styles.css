@@ -686,7 +686,13 @@ main > .section:last-child { padding-bottom: 34vh; }
 /* ---------- selected open-source projects ---------------- */
 
 .project-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
-.project-stars { border: 0; overflow: hidden; flex-shrink: 0; }
+.combined-stars { display: inline-flex; flex-wrap: wrap; align-items: center; min-height: 20px; gap: 5px; font: 700 11px/18px Arial, sans-serif; }
+.combined-star-label { white-space: nowrap; }
+.combined-star-link, .combined-star-count { padding: 0 5px; border: 1px solid #c5c5c5; border-radius: 3px; color: #333; white-space: nowrap; }
+.combined-star-link { display: inline-flex; align-items: center; gap: 4px; background: linear-gradient(#fff, #e6e6e6); }
+.repository-github-icon { display: inline-flex; }
+.repository-github-icon svg { width: 13px; height: 13px; }
+.combined-star-count { background: #fff; }
 .project-description { margin: 4px 0 0; }
 
 /* ---------- compact grid (edu / work / teach / svc) ------- */

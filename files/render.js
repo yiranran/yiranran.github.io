@@ -505,27 +505,6 @@
         });
     }
 
-    // ---------- granted patents -------------------------------------------
-
-    function renderPatents(items) {
-        const target = slot("patents");
-        items.forEach((p) => {
-            const li = el("li");
-            li.appendChild(el("strong", { text: p.title }));
-            const details = el("p", { class: "patent-details" });
-            p.inventors.forEach((name, i) => {
-                if (i) details.appendChild(document.createTextNode("、"));
-                details.appendChild(name === "易冉"
-                    ? el("strong", { text: name })
-                    : document.createTextNode(name));
-            });
-            details.appendChild(document.createTextNode(`；${p.type}；${p.number}；授权日期：`));
-            details.appendChild(el("time", { datetime: p.granted, text: p.granted.replace(/-/g, ".") }));
-            li.appendChild(details);
-            target.appendChild(li);
-        });
-    }
-
     // ---------- generic html-list ------------------------------------------
 
     function renderHtmlList(items, slotName) {
@@ -541,7 +520,7 @@
 
     async function main() {
         try {
-            const [profile, bio, news, interests, openings, pubs, awards, edu, work, courses, acts, funding, projects, studentAwards, patents] =
+            const [profile, bio, news, interests, openings, pubs, awards, edu, work, courses, acts, funding, projects, studentAwards] =
                 await Promise.all([
                     loadJSON("profile"),
                     loadJSON("bio"),
@@ -557,7 +536,6 @@
                     loadJSON("funding"),
                     loadJSON("projects"),
                     loadJSON("student_awards"),
-                    loadJSON("patents"),
                 ]);
 
             renderProfile(profile);
@@ -571,7 +549,6 @@
             renderPublications(pubs);
             renderAwards(awards);
             renderHtmlList(studentAwards, "student_awards");
-            renderPatents(patents);
             renderHtmlList(edu, "education");
             renderHtmlList(work, "working");
             renderHtmlList(courses, "courses");

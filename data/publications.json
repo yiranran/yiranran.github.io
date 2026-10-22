@@ -249,7 +249,7 @@
     {
       "section": "yearly",
       "year": 2026,
-      "title": "PoseAnything: Universal Pose-guided Video Generation with Part-aware Temporal Coherence",
+      "title": "PoseAnything: General Pose-guided Video Generation with Part-aware Temporal Coherence",
       "image": "images/CVPR-2026-PoseAnything.jpg",
       "authors": [
         {

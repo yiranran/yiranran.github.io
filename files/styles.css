@@ -668,9 +668,6 @@ main > .section:last-child { padding-bottom: 34vh; }
     white-space: nowrap;
 }
 
-.patent-details { margin: 4px 0 0; color: var(--muted); font-size: 0.92rem; }
-.patent-details time { white-space: nowrap; font-variant-numeric: tabular-nums; }
-
 .awards-students {
     margin-top: 24px;
     padding-top: 24px;
